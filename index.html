@@ -19,17 +19,20 @@
     
   </head>
   <div class="container">
+    
     <header>
+      <div class="header-items">
       <img src="img/NM-logo-head.png" alt="netmatters logo" />
 
-      <i class="fas fa-phone-alt"></i>
+      <button class="call-us-btn"><i class="fas fa-phone-alt fa-2x"></i></button>
 
       <button class="menu">
         <i class="fas fa-bars"></i>
         menu
       </button>
-
-      <input type="text"><input type="button" value="search"> <i class="fas fa-search"></i> <!--search bar check work spaces input lesson for detail-->
+      </div>
+      <input id="search-bar" type="text" placeholder="search...">
+      <button><i class="fas fa-search"></i></button>  <!--search bar check work spaces input lesson for detail-->
       
     </header>
   </div>
@@ -38,21 +41,83 @@
 
     <div class="main-banner"> <!--Big-lock img to go here. set as SET AS BACKGROUND IMG of div fopr text and button overlay?-->
 
-       <div class="banner-main-text">CYBER SECURITY <br> Keeping businesses and their customers <br> sensitive information protected</div>
+       <div class="banner-main-text"><h1>CYBER SECURITY</h1> <br> <p>Keeping businesses and their customers <br> sensitive information protected</p><br></div>
 
-       <button>FIND OUT MORE<i class="fas fa-arrow-right"></i></button>
+       <button class="find-out-more-btn">FIND OUT MORE  <i class="fas fa-arrow-right"></i></button>
 
     </div>
 
-    <div class="container"> <!-- container for besoke software/ it soupport/ cyber sec etc etc cards-->
+    <div class="container"> <!-- container for besoke software/ it support/ cyber sec etc etc cards-->
 
-      <div class="block-cards" id="bespoke-sw"><i class="fas fa-th"></i><br><h2>Bespoke Software</h2><br><p> Tailored software solutions to improve business productivity and online profits. Out expert team will ensure a software solution.</p><br><button>READ MORE</i></button></div>
-      <div class="block-cards" id="it-sup"><i class="fas fa-tv"></i><br><h2>IT SUPPORT</h2><br><p> Managed IT services that is catered to your business needs, adds value and reduces costs.</p><br><button>READ MORE</i></button></div>
-      <div class="block-cards" id="dig-mark"><i class="fas fa-signal"></i><br><h2>Digital Marketing</h2><br><p>Driving brand awareness and ROI through creative digital marketing campaigns. We review and monitor online performances.</p><br><button>READ MORE</i></button></div>
-      <div class="block-cards" id="tel-serv"><i class="fas fa-phone-alt"></i><br><h2>Telecoms Services</h2><br><p>Stay connected with bespoke telecoms solutions when you need it most.</p><br><button>READ MORE</i></button></div>
-      <div class="block-cards" id="web-serv"><i class="fas fa-code"></i><br><h2>Web Design</h2><br><p>User-centric design for businesses looking to make a lasting first impression.</p><br><button>READ MORE</i></button></div>
-      <div class="block-cards" id="cyber-sec"><i class="fas fa-shield-alt"></i><br><h2>Cyber Security</h2><br><p>Ensuring your online business stays secure 24/7, 365 days of the year.</p><br><button>READ MORE</i></button></div>
-      <div class="block-cards" id="dev-train"><i class="fas fa-graduation-cap"></i><br><h2>Developer Training</h2><br><p> Have you considered a career in web development but you aren't sure where to start?</p><br><button>READ MORE</i></button></div>
+      <div class="block-cards" id="bespoke-sw">
+        <span class="icon-background dots"><i class="fas fa-th"></i></span>
+        <br>
+        <h2>Bespoke Software</h2>
+        <br>
+        <p> Tailored software solutions to improve business productivity and online profits. Out expert team will ensure a software solution.</p>
+        <br>
+        <button class="read-more-btn bespoke-btn">READ MORE</i></button>
+      </div>
+
+      <div class="block-cards" id="it-sup">
+        <span class="icon-background monitor"><i class="fas fa-tv"></i></span>
+        <br>
+        <h2>IT SUPPORT</h2>
+        <br>
+        <p> Managed IT services that is catered to your business needs, adds value and reduces costs.</p>
+        <br>
+        <button class="read-more-btn it-sup-btn">READ MORE</i></button>
+      </div>
+
+      <div class="block-cards" id="dig-mark">
+        <span class="icon-background graph"><i class="fas fa-signal"></i></span>
+        <br>
+        <h2>Digital Marketing</h2>
+        <br>
+        <p>Driving brand awareness and ROI through creative digital marketing campaigns. We review and monitor online performances.</p>
+        <br>
+        <button class="read-more-btn digi-mark-btn">READ MORE</i></button>
+      </div>
+
+      <div class="block-cards" id="tel-serv">
+        <span class="icon-background telephone"><i class="fas fa-phone-alt"></i></span>
+        <br>
+        <h2>Telecoms Services</h2>
+        <br>
+        <p>Stay connected with bespoke telecoms solutions when you need it most.</p>
+        <br>
+        <button class="read-more-btn telecoms-btn">READ MORE</button>
+      </div>
+
+      <div class="block-cards" id="web-serv">
+        <span class="icon-background angle-brac"><i class="fas fa-code"></i></span>
+        <br>
+        <h2>Web Design</h2>
+        <br>
+        <p>User-centric design for businesses looking to make a lasting first impression.</p>
+        <br>
+        <button class="read-more-btn web-des-btn">READ MORE</i></button>
+      </div>
+
+      <div class="block-cards" id="cyber-sec">
+        <span class="icon-background c-sec"><i class="fas fa-shield-alt"></i></span>
+        <br>
+        <h2>Cyber Security</h2>
+        <br>
+        <p>Ensuring your online business stays secure 24/7, 365 days of the year.</p>
+        <br>
+        <button class="read-more-btn cyber-sec-btn">READ MORE</i></button>
+      </div>
+
+      <div class="block-cards" id="dev-train">
+        <span class="icon-background scs"><i class="fas fa-graduation-cap"></i></span>
+        <br>
+        <h2>Developer Training</h2>
+        <br>
+        <p> Have you considered a career in web development but you aren't sure where to start?</p>
+        <br>
+        <button class="read-more-btn dev-train-btn">READ MORE</i></button>
+      </div>
 
     </div>
 
@@ -61,34 +126,38 @@
       <P><strong>Netmatters Ltd is a leading web design, IT support and digital marketing agency based in Wymondham, Norfolk.</strong></P>
       <p>Founded in 2008, we work with businesses from a variety of industries to gain new prospects, nurture existing leads and further grow their sales</p>
       <p>We provide cost effective, reliable solutions to a range of services; from bespoke cloud-based management systems, workflow and IT solutions through to creative website development and integrated digital campaigning.</p>
-      <button class="oc-btn">OUR CULTURE<i class="fas fa-arrow-right"></i></button>
+      <button class="oc-btn">OUR CULTURE  <i class="fas fa-arrow-right"></i></button>
 
     </div>
 
     <div clas="latest-cards-main"> <!--latest new cards x3 prem resource/ birthday / and jordan vid-->
       <h1><strong>LATEST</strong></h1>
-<div ><a class="prem-res"></a></div>>
+
       <div class="latest-cards">
-        
-        <div><strong>Premier Resourcing Case Study</strong></div>
+
+        <div>
+        <div ><a class="prem-res" alt="View all: IT support / case studies"></a></div>
+        </div>
+
+        <div class="prem-res-tit"><strong>Premier Resourcing Case Study</strong></div>
         <div>It has never been more important for businesses to have effective IT support and cyber security in place, especially with so much sensitive data being available online...<!-- ammount of text shwown depend on page width ask Jordan or Stew!-->
-        <br><button>READ MORE</button></div> 
+        <br><button class="latest-btn prem-res-btn">READ MORE</button></div> 
            
         <div><strong>Posted by Netmatters Ltd</strong><br>21st September 2020</div>
           </div> 
       <div class="latest-cards"> 
           
-            <div><strong>Happy 30th birthday Adam Burns!</strong></div>
+            <div class="bday-tit"><strong>Happy 30th birthday Adam Burns!</strong></div>
         <div>Adam joined Netmatters in August 2015 as a Senior IT Technician. He brings a positive, solution-focused attitude to everything that he does and manages his own POD of technicians. Adam is a Netmatters Legend, having recently received the long service award too. We feel lucky to have Adam on board and would like to take this opportunity to wish him a happy birthday! <!-- ammount of text shwown depend on page width ask Jordan or Stew!-->
-        <br><button>READ MORE</button></div>
+        <br><button class="latest-btn happy-bday-btn">READ MORE</button></div>
            
         <div><strong>Posted by Netmatters Ltd</strong><br>21st September 2020</div>  
        </div>   
       <div class="latest-cards">
         <a class="jordan"></a>  
-        <div><strong>SCS Video Series 2020 - What Made You Decide To Apply #1</strong></div>
+        <div class="jordan-tit"><strong>SCS Video Series 2020 - What Made You Decide To Apply #1</strong></div>
         <div>The Netmatters Scion Scheme is an award-winning training course designed to give anyone who is passionate about tech both the technical know-how and the softer skills they need to forge lifelong careers in the digital world. It is a fantastic opportunity, whether you are at the starting point of your career or are looking to pivot into something completely new... <!-- ammount of text shwown depend on page width ask Jordan or Stew!-->
-        <br><button>READ MORE</button></div>
+        <br><button class="latest-btn jordan-btn">READ MORE</button></div>
 
         <div><strong>Posted by Netmatters Ltd</strong><br>18th September 2020</div>        
       </div>    
@@ -127,9 +196,15 @@
     <h4>SOCIAL MEDIA</h4>
 
     <div> <!-- social media links fb / twit / linkedin logos and buttons?!?-->
-      <div Class="social"><i class="fab fa-facebook-f"></i><br>Facebook</div>
-      <div Class="social"><i class="fab fa-twitter"></i><br>twitter</div>
-      <div Class="social"><i class="fab fa-linkedin-in"></i><br>linkedin</div>
+      <div Class="social">
+      <a class="facebook" href="https://en-gb.facebook.com/netmatters/"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div Class="social">
+      <a class="twitter" href="https://twitter.com/netmattersltd" ><i class="fab fa-twitter"></i></a>
+      </div>
+      <div Class="social">
+      <a class="linkedin" href="https://www.linkedin.com/company/netmatters-ltd/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
     </div>
     </div>
   </footer>

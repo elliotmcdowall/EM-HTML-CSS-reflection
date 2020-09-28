@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("../../IMG/big-lock.jpg");
+  background-image: linear-gradient(to right, rgba(7, 7, 7, 1), rgba(7, 7, 7, 0)), url("../../IMG/big-lock.jpg");
   background-position: center;
   width: 100%;
   height: 681px;
@@ -16,10 +16,12 @@
 }
 
 .block-cards {
-  border: 1px solid;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
   margin: 30px 0px 0px;
   padding: 30px;
   text-align: center;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .latest-cards {
@@ -32,22 +34,10 @@
   color: #ffffff;
   margin-right: auto;
   margin-left: auto;
-}
-
-.oc-btn {
-  background-color: #ffffff;
-  color: #333645;
-  font-size: 1rem;
-  letter-spacing: 0.4px;
-  padding: 5px 15px;
-  border-radius: 3px;
-}
-
-.container-foot {
-  background-color: #333645;
-  color: #ffffff;
-  margin-right: auto;
-  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .prem-res {
@@ -58,4 +48,16 @@
 
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
+}
+
+.prem-res-tit {
+  color: #4183d7;
+}
+
+.bday-tit {
+  color: #4183d7;
+}
+
+.jordan-tit {
+  color: #926fb1;
 }

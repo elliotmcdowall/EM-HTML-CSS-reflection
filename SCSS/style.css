@@ -1,14 +1,12 @@
 * {
   font-family: "poppins", "sans-serif";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
   color: #ffffff;
-}
-
-.contact-us {
-  list-style-type: none;
 }
 
 /* main img banner holding the image and the text */
@@ -23,7 +21,8 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url("../../IMG/big-lock.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(#070707), to(rgba(7, 7, 7, 0))), url("../../IMG/big-lock.jpg");
+  background-image: linear-gradient(to right, #070707, rgba(7, 7, 7, 0)), url("../../IMG/big-lock.jpg");
   background-position: center;
   width: 100%;
   height: 681px;
@@ -36,10 +35,13 @@ a {
 }
 
 .block-cards {
-  border: 1px solid;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
   margin: 30px 0px 0px;
   padding: 30px;
   text-align: center;
+  -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .latest-cards {
@@ -52,22 +54,10 @@ a {
   color: #ffffff;
   margin-right: auto;
   margin-left: auto;
-}
-
-.oc-btn {
-  background-color: #ffffff;
-  color: #333645;
-  font-size: 1rem;
-  letter-spacing: 0.4px;
-  padding: 5px 15px;
-  border-radius: 3px;
-}
-
-.container-foot {
-  background-color: #333645;
-  color: #ffffff;
-  margin-right: auto;
-  margin-left: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .prem-res {
@@ -83,5 +73,267 @@ a {
       align-content: flex-start;
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
+}
+
+.prem-res-tit {
+  color: #4183d7;
+}
+
+.bday-tit {
+  color: #4183d7;
+}
+
+.jordan-tit {
+  color: #926fb1;
+}
+
+.latest-btn {
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  font-size: 1.063rem;
+  border-radius: 3px;
+  white-space: normal;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.prem-res-btn {
+  color: #ffffff;
+  background-color: #4183d7;
+  border-color: #4183d7;
+}
+
+.happy-bday-btn {
+  color: #ffffff;
+  background-color: #4183d7;
+  border-color: #4183d7;
+}
+
+.jordan-btn {
+  color: #ffffff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+}
+
+.oc-btn {
+  background-color: #ffffff;
+  color: #333645;
+  font-size: 1rem;
+  letter-spacing: 0.4px;
+  line-height: 1.4;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+.read-more-btn {
+  height: auto;
+  line-height: 35px;
+  padding: 5px 15px;
+  border-radius: 3px;
+  font-size: 1.063rem;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.bespoke-btn {
+  color: #ffffff;
+  background-color: #67809f;
+  border-color: #67809f;
+}
+
+.it-sup-btn {
+  color: #ffffff;
+  background-color: #4183d7;
+  border-color: #4183d7;
+}
+
+.digi-mark-btn {
+  color: #ffffff;
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+}
+
+.telecoms-btn {
+  color: #ffffff;
+  background-color: #d64541;
+  border-color: #d64541;
+}
+
+.web-des-btn {
+  color: #ffffff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+}
+
+.cyber-sec-btn {
+  color: #ffffff;
+  background-color: #f62459;
+  border-color: #f62459;
+}
+
+.dev-train-btn {
+  -webkit-columns: #ffffff;
+          columns: #ffffff;
+  background-color: #926fb1;
+  border-color: #926fb1;
+}
+
+.find-out-more-btn {
+  color: #ffffff;
+  background-color: #f62459;
+  border-color: #f62459;
+  line-height: 50px;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+  border-radius: 3px;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  background-color: #333645;
+  border-color: #333645;
+  margin-left: 20px;
+  height: 56px;
+  line-height: 1;
+  font-size: 1.125rem;
+  height: 56px;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+
+.call-us-btn {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.contact-us {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container-foot {
+  background-color: #333645;
+  color: #ffffff;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  font-size: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 47px 0 43px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #00000040;
+  margin: 30px 0px 0px;
+  font-size: 1.75rem;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#search-bar {
+  background-color: rgba(0, 0, 0, 0.1);
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: none;
+  transition: none;
+  width: 100%;
+  padding-right: 40px;
+  border-radius: 2px;
+  height: 47px;
+  padding: 5px 15px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555555;
+}
+
+.fa-bars {
+  font-size: 25px;
+}
+
+.header-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 60px;
+  width: 60px;
+  margin: 0 auto 17px;
+  color: #ffffff;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.dots {
+  background-color: #67809f;
+}
+
+.monitor {
+  background-color: #4183d7;
+}
+
+.graph {
+  background-color: #2ecc71;
+}
+
+.telephone {
+  background-color: #d64541;
+}
+
+.angle-brac {
+  background-color: #926fb1;
+}
+
+.c-sec {
+  background-color: #f62459;
+}
+
+.scs {
+  background-color: #926fb1;
 }
 /*# sourceMappingURL=style.css.map */
