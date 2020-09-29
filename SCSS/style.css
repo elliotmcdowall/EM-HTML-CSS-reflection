@@ -37,7 +37,7 @@ a {
 .block-cards {
   border: 1px solid #cccccc;
   border-radius: 3px;
-  margin: 30px 0px 0px;
+  margin: 30px 0px 50px;
   padding: 30px;
   text-align: center;
   -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
@@ -46,7 +46,7 @@ a {
 
 .latest-cards {
   border: 1px solid #cccccc;
-  padding: 50px;
+  padding: 0;
 }
 
 .container-nm {
@@ -61,7 +61,30 @@ a {
 }
 
 .prem-res {
-  background-image: url(../../IMG/case-study.jpg);
+  background-image: url("../../IMG/case-study.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  padding: 0 0 50px 0;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.birthday {
+  background-image: url("../../IMG/birthday-boy.jpg");
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,6 +96,32 @@ a {
       align-content: flex-start;
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.jordan {
+  background-image: url("../../IMG/jordan-vid.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
 }
 
 .prem-res-tit {
@@ -94,6 +143,18 @@ a {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.img-container-1 {
+  border: 1px solid #cccccc;
+}
+
+.img-container-2 {
+  border: 1px solid #cccccc;
+}
+
+.img-container-3 {
+  border: 1px solid #cccccc;
 }
 
 .latest-btn {
@@ -128,12 +189,22 @@ a {
 
 .oc-btn {
   background-color: #ffffff;
+  border-color: #ffffff;
   color: #333645;
-  font-size: 1rem;
-  letter-spacing: 0.4px;
-  line-height: 1.4;
+  height: auto;
+  line-height: 35px;
   padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 1.063rem;
   border-radius: 3px;
+  white-space: normal;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
 }
 
 .read-more-btn {
@@ -185,8 +256,7 @@ a {
 }
 
 .dev-train-btn {
-  -webkit-columns: #ffffff;
-          columns: #ffffff;
+  color: #ffffff;
   background-color: #926fb1;
   border-color: #926fb1;
 }
@@ -235,6 +305,29 @@ a {
 .call-us-btn {
   background-color: #ffffff;
   border-color: #ffffff;
+  color: #000000;
+}
+
+.case-study-btn {
+  background-color: #4183d7;
+  color: #ffffff;
+  top: 10px;
+  right: 0;
+  font-size: 0.75rem;
+  padding: 0 10px;
+  line-height: 1.4rem;
+  font-weight: 600;
+}
+
+.insights-btn {
+  background-color: #926fb1;
+  color: #ffffff;
+  top: 10px;
+  right: 0;
+  font-size: 0.75rem;
+  padding: 0 10px;
+  line-height: 1.4rem;
+  font-weight: 600;
 }
 
 .contact-us {

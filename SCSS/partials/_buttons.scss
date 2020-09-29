@@ -30,12 +30,22 @@
 
 .oc-btn {
     background-color: #ffffff;
+    border-color: #ffffff;
     color: #333645;
-    font-size: 1rem;
-    letter-spacing: 0.4px;
-    line-height: 1.4;
+    height: auto;
+    line-height: 35px;
     padding: 5px 15px;
+    text-transform: uppercase;
+    font-size: 1.063rem;
     border-radius: 3px;
+    white-space: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
 }
 
 .read-more-btn {
@@ -87,7 +97,7 @@
 }
 
 .dev-train-btn {
-    columns: #ffffff;
+    color: #ffffff;
     background-color: #926fb1;
     border-color: #926fb1;
 }
@@ -127,4 +137,26 @@
 .call-us-btn {
     background-color: #ffffff;
     border-color: #ffffff;
+    color: #000000;
+}
+
+.case-study-btn {
+    background-color: #4183d7;
+    color: #ffffff;
+    top: 10px;
+    right: 0;
+    font-size: 0.75rem;
+    padding: 0 10px;
+    line-height: 1.4rem;
+    font-weight: 600;
+}
+.insights-btn {
+    background-color: #926fb1;
+    color: #ffffff;
+    top: 10px;
+    right: 0;
+    font-size: 0.75rem;
+    padding: 0 10px;
+    line-height: 1.4rem;
+    font-weight: 600;
 }

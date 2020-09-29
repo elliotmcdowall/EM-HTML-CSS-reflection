@@ -3,12 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(
-      to right,
-      rgba(7, 7, 7, 1),
-      rgba(7, 7, 7, 0)
-    ),
-    url("../../IMG/big-lock.jpg");
+  background-image: linear-gradient(to right, rgba(7, 7, 7, 1), rgba(7, 7, 7, 0)), url("../../IMG/big-lock.jpg");
   background-position: center;
   width: 100%;
   height: 681px;
@@ -23,7 +18,7 @@
 .block-cards {
   border: 1px solid #cccccc;
   border-radius: 3px;
-  margin: 30px 0px 0px;
+  margin: 30px 0px 50px;
   padding: 30px;
   text-align: center;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
@@ -31,7 +26,7 @@
 
 .latest-cards {
   border: 1px solid #cccccc;
-  padding: 50px;
+  padding: 0;
 }
 
 .container-nm {
@@ -46,13 +41,53 @@
 }
 
 .prem-res {
-  background-image: url(../../IMG/case-study.jpg);
+  background-image: url("../../IMG/case-study.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: flex-start;
+
+  padding: 0 0 50px 0;
+
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.birthday {
+  background-image: url("../../IMG/birthday-boy.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column-reverse;
   align-content: flex-start;
 
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.jordan {
+  background-image: url("../../IMG/jordan-vid.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: flex-start;
+
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #cccccc;
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
 }
 
 .prem-res-tit {
@@ -70,4 +105,16 @@
 .posted-by {
   display: flex;
   justify-content: space-evenly;
+}
+
+.img-container-1 {
+  border: 1px solid #cccccc;
+}
+
+.img-container-2 {
+  border: 1px solid #cccccc;
+}
+
+.img-container-3 {
+  border: 1px solid #cccccc;
 }
