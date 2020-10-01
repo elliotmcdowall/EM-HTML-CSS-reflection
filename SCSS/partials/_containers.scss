@@ -3,12 +3,17 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(to right, rgba(7, 7, 7, 1), rgba(7, 7, 7, 0)), url("../../IMG/big-lock.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(7, 7, 7, 1),
+      rgba(7, 7, 7, 0)
+    ),
+    url("../../IMG/big-lock.jpg");
   background-position: center;
   width: 100%;
   height: 681px;
   color: white;
-  padding: 0px -10px 0px -10px:
+  padding: 0px -10px 0px -10px;
 }
 
 /* banner text */
@@ -17,7 +22,7 @@
 }
 
 .container-block-cards {
-  padding: 10px 10px 0px 10px;
+  padding: 50px 15px 50px 15px;
 }
 
 .block-cards {
@@ -29,9 +34,43 @@
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
+#bespoke-sw:hover {
+  background-color: #67809f;
+}
+
+#it-sup:hover {
+  background-color: #4183d7;
+}
+
+#dig-mark:hover {
+  background-color: #2ecc71;
+}
+
+#tel-serv:hover {
+  background-color: #d64541;
+}
+
+#web-serv:hover {
+  background-color: #926fb1;
+}
+
+#cyber-sec:hover {
+  background-color: #f62459;
+}
+
+#dev-train:hover {
+  background-color: #926fb1;
+}
+
+.latest-cards-main {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -30px;
+}
+
 .latest-cards {
   // border: 1px solid #cccccc;
-  padding: 0;
+  padding: 50px 15px 50px 15px;
 }
 
 .container-nm {
@@ -120,6 +159,18 @@
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #ccc;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.posted-by::after {
+  border-top: 1px solid #ccc;
+
+  display: block;
+
+  width: 90%;
 }
 
 .little-nm {
@@ -142,13 +193,25 @@
 }
 
 .bottom-half-prem-res {
+  border-top: 0;
   border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .bottom-half-bday {
+  border-top: 0;
   border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .bottom-half-jordan {
+  border-top: 0;
   border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }

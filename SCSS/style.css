@@ -27,11 +27,16 @@ a {
   width: 100%;
   height: 681px;
   color: white;
+  padding: 0px -10px 0px -10px;
 }
 
 /* banner text */
 .banner-main-text {
   text-align: center;
+}
+
+.container-block-cards {
+  padding: 50px 15px 50px 15px;
 }
 
 .block-cards {
@@ -44,8 +49,42 @@ a {
           box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
+#bespoke-sw:hover {
+  background-color: #67809f;
+}
+
+#it-sup:hover {
+  background-color: #4183d7;
+}
+
+#dig-mark:hover {
+  background-color: #2ecc71;
+}
+
+#tel-serv:hover {
+  background-color: #d64541;
+}
+
+#web-serv:hover {
+  background-color: #926fb1;
+}
+
+#cyber-sec:hover {
+  background-color: #f62459;
+}
+
+#dev-train:hover {
+  background-color: #926fb1;
+}
+
+.latest-cards-main {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -30px;
+}
+
 .latest-cards {
-  padding: 0;
+  padding: 50px 15px 50px 15px;
 }
 
 .container-nm {
@@ -153,6 +192,16 @@ a {
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #ccc;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.posted-by::after {
+  border-top: 1px solid #ccc;
+  display: block;
+  width: 90%;
 }
 
 .little-nm {
@@ -175,15 +224,30 @@ a {
 }
 
 .bottom-half-prem-res {
+  border-top: 0;
   border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 0 0 3px 3px;
+  -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .bottom-half-bday {
+  border-top: 0;
   border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 0 0 3px 3px;
+  -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .bottom-half-jordan {
+  border-top: 0;
   border: 1px solid #cccccc;
+  padding: 30px;
+  border-radius: 0 0 3px 3px;
+  -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
 }
 
 .latest-btn {
@@ -254,10 +318,20 @@ a {
   border-color: #67809f;
 }
 
+.bespoke-btn:hover {
+  background-color: #ffffff;
+  color: #67809f;
+}
+
 .it-sup-btn {
   color: #ffffff;
   background-color: #4183d7;
   border-color: #4183d7;
+}
+
+.it-sup-btn:hover {
+  background-color: #ffffff;
+  color: #4183d7;
 }
 
 .digi-mark-btn {
@@ -266,10 +340,20 @@ a {
   border-color: #2ecc71;
 }
 
+.digi-mark-btn:hover {
+  background-color: #ffffff;
+  color: #2ecc71;
+}
+
 .telecoms-btn {
   color: #ffffff;
   background-color: #d64541;
   border-color: #d64541;
+}
+
+.telecoms-btn:hover {
+  background-color: #ffffff;
+  color: #d64541;
 }
 
 .web-des-btn {
@@ -278,16 +362,31 @@ a {
   border-color: #926fb1;
 }
 
+.web-des-btn:hover {
+  background-color: #ffffff;
+  color: #926fb1;
+}
+
 .cyber-sec-btn {
   color: #ffffff;
   background-color: #f62459;
   border-color: #f62459;
 }
 
+.cyber-sec-btn:hover {
+  background-color: #ffffff;
+  color: #f62459;
+}
+
 .dev-train-btn {
   color: #ffffff;
   background-color: #926fb1;
   border-color: #926fb1;
+}
+
+.dev-train-btn:hover {
+  background-color: #ffffff;
+  color: #926fb1;
 }
 
 .find-out-more-btn {
@@ -401,6 +500,12 @@ a {
       align-content: space-between;
 }
 
+.NM-header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #search-bar {
   background-color: rgba(0, 0, 0, 0.1);
   outline: 1px solid rgba(255, 255, 255, 0.2);
@@ -430,33 +535,6 @@ a {
   padding-bottom: 10px;
 }
 
-.NM-header-logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.call-us {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.header-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
 .header-container {
   padding: 10px 10px 10px 10px;
 }
@@ -484,27 +562,62 @@ a {
   background-color: #67809f;
 }
 
+.dots:hover {
+  background-color: #ffffff;
+  color: #67809f;
+}
+
 .monitor {
   background-color: #4183d7;
+}
+
+.monitor:hover {
+  background-color: #ffffff;
+  color: #4183d7;
 }
 
 .graph {
   background-color: #2ecc71;
 }
 
+.graph:hover {
+  background-color: #ffffff;
+  color: #2ecc71;
+}
+
 .telephone {
   background-color: #d64541;
+}
+
+.telephone:hover {
+  background-color: #ffffff;
+  color: #d64541;
 }
 
 .angle-brac {
   background-color: #926fb1;
 }
 
+.angle-brac:hover {
+  background-color: #ffffff;
+  color: #926fb1;
+}
+
 .c-sec {
   background-color: #f62459;
 }
 
+.c-sec:hover {
+  background-color: #ffffff;
+  color: #f62459;
+}
+
 .scs {
   background-color: #926fb1;
+}
+
+.scs:hover {
+  background-color: #ffffff;
+  color: #926fb1;
 }
 /*# sourceMappingURL=style.css.map */
