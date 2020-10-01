@@ -11,13 +11,13 @@
   font-size: 1rem;
   margin-right: auto;
   margin-left: auto;
-  padding: 47px 0 43px;
+  padding: 47px 0 43px 15px;
 }
 
 .social {
-  display: flex;
-  align-content: space-around;
-
+  // display: flex;
+  // align-content: space-around;
+  // flex-direction: row;
   background-color: #00000040;
   margin: 30px 0px 0px;
   font-size: 1.75rem;
@@ -25,8 +25,15 @@
   color: #ffffff;
   text-align: center;
   box-sizing: border-box;
-  width: 40%;
+  width: 45%;
 
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.media-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-between;
 }

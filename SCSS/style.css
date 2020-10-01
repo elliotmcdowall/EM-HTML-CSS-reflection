@@ -45,7 +45,6 @@ a {
 }
 
 .latest-cards {
-  border: 1px solid #cccccc;
   padding: 0;
 }
 
@@ -124,25 +123,43 @@ a {
   border: 0;
 }
 
-.prem-res-tit {
+.prem-res-title {
   color: #4183d7;
 }
 
-.bday-tit {
+.bday-title {
   color: #4183d7;
 }
 
-.jordan-tit {
+.jordan-title {
   color: #926fb1;
 }
 
-.posted-by {
+.news-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  font-size: 0.875rem;
+  padding-left: 20px;
+  line-height: 1.375rem;
+}
+
+.posted-by {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.little-nm {
+  background-image: url("../../IMG/NM-logo-little.png");
+  max-width: 47px;
+  vertical-align: middle;
+  border: 0;
 }
 
 .img-container-1 {
@@ -154,6 +171,18 @@ a {
 }
 
 .img-container-3 {
+  border: 1px solid #cccccc;
+}
+
+.bottom-half-prem-res {
+  border: 1px solid #cccccc;
+}
+
+.bottom-half-bday {
+  border: 1px solid #cccccc;
+}
+
+.bottom-half-jordan {
   border: 1px solid #cccccc;
 }
 
@@ -343,15 +372,10 @@ a {
   font-size: 1rem;
   margin-right: auto;
   margin-left: auto;
-  padding: 47px 0 43px;
+  padding: 47px 0 43px 15px;
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
   background-color: #00000040;
   margin: 30px 0px 0px;
   font-size: 1.75rem;
@@ -360,9 +384,21 @@ a {
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 40%;
+  width: 45%;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
 }
 
 #search-bar {
@@ -391,9 +427,38 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.NM-header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.call-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header-container {
+  padding: 10px 10px 10px 10px;
 }
 
 .icon-background {

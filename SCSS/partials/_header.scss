@@ -20,5 +20,24 @@
 
 .header-items {
   display: flex;
-  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.NM-header-logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.call-us {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-container {
+  padding: 10px 10px 10px 10px;
 }
