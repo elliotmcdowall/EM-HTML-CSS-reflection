@@ -1,3 +1,24 @@
+.netmatters-logo {
+  width: 402px;
+  height: 70px;
+  background-image: url("../../IMG/NM-logo-head.png");
+  background-size: cover;
+}
+
+.call-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 56px;
+}
+
+.search-bar-items {
+  min-width: 100%;
+  position: relative;
+}
+
 #search-bar {
   background-color: rgba(0, 0, 0, 0.1);
   outline: 1px solid hsla(0, 0%, 100%, 0.2);
@@ -12,6 +33,15 @@
   font-size: 14px;
   line-height: 1.4;
   color: #555555;
+  position: relative;
+}
+
+#search-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 47px;
+  width: 47px;
 }
 
 .fa-bars {
@@ -20,6 +50,7 @@
 
 .header-items {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 10px;
 }

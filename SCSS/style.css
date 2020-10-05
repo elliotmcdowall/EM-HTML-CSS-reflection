@@ -47,10 +47,22 @@ a {
   text-align: center;
   -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  color: #000000;
 }
 
 #bespoke-sw:hover {
   background-color: #67809f;
+  color: #ffffff;
+}
+
+#bespoke-sw:hover .bespoke-btn {
+  background-color: #ffffff;
+  color: #67809f;
+}
+
+#bespoke-sw:hover .dots {
+  background-color: #ffffff;
+  color: #67809f;
 }
 
 #it-sup:hover {
@@ -99,24 +111,12 @@ a {
 }
 
 .prem-res {
-  background-image: url("../../IMG/case-study.jpg");
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
-  padding: 0 0 50px 0;
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
   width: 100%;
   height: 300px;
   max-width: 100%;
-  vertical-align: middle;
   border: 0;
 }
 
@@ -213,6 +213,12 @@ a {
 
 .img-container-1 {
   border: 1px solid #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../IMG/case-study.jpg");
+  height: auto;
+  max-width: 100%;
+  position: relative;
 }
 
 .img-container-2 {
@@ -316,11 +322,6 @@ a {
   color: #ffffff;
   background-color: #67809f;
   border-color: #67809f;
-}
-
-.bespoke-btn:hover {
-  background-color: #ffffff;
-  color: #67809f;
 }
 
 .it-sup-btn {
@@ -445,6 +446,7 @@ a {
   padding: 0 10px;
   line-height: 1.4rem;
   font-weight: 600;
+  position: absolute;
 }
 
 .insights-btn {
@@ -500,6 +502,48 @@ a {
       align-content: space-between;
 }
 
+.facebook:hover {
+  background-color: #3b5998;
+}
+
+.twitter:hover {
+  background-color: #00aced;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.netmatters-logo {
+  width: 402px;
+  height: 70px;
+  background-image: url("../../IMG/NM-logo-head.png");
+  background-size: cover;
+}
+
+.call-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 56px;
+  width: 56px;
+}
+
+.search-bar-items {
+  min-width: 100%;
+  position: relative;
+}
+
 #search-bar {
   background-color: rgba(0, 0, 0, 0.1);
   outline: 1px solid rgba(255, 255, 255, 0.2);
@@ -516,6 +560,15 @@ a {
   font-size: 14px;
   line-height: 1.4;
   color: #555555;
+  position: relative;
+}
+
+#search-icon {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 47px;
+  width: 47px;
 }
 
 .fa-bars {
@@ -526,6 +579,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -566,11 +621,6 @@ a {
 
 .dots {
   background-color: #67809f;
-}
-
-.dots:hover {
-  background-color: #ffffff;
-  color: #67809f;
 }
 
 .monitor {
@@ -625,5 +675,17 @@ a {
 .scs:hover {
   background-color: #ffffff;
   color: #926fb1;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #search-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .call-us-btn {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */

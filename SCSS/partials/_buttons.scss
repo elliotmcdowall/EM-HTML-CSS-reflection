@@ -66,10 +66,10 @@
   border-color: #67809f;
 }
 
-.bespoke-btn:hover {
-  background-color: #ffffff;
-  color: #67809f;
-}
+// .bespoke-btn:hover {
+//   background-color: #ffffff;
+//   color: #67809f;
+// }
 
 .it-sup-btn {
   color: #ffffff;
@@ -184,6 +184,7 @@
   padding: 0 10px;
   line-height: 1.4rem;
   font-weight: 600;
+  position: absolute;
 }
 .insights-btn {
   background-color: #926fb1;

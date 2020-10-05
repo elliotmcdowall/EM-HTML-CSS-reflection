@@ -3,12 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(
-      to right,
-      rgba(7, 7, 7, 1),
-      rgba(7, 7, 7, 0)
-    ),
-    url("../../IMG/big-lock.jpg");
+  background-image: linear-gradient(to right, rgba(7, 7, 7, 1), rgba(7, 7, 7, 0)), url("../../IMG/big-lock.jpg");
   background-position: center;
   width: 100%;
   height: 681px;
@@ -32,10 +27,20 @@
   padding: 30px;
   text-align: center;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+  color: #000000;
 }
 
 #bespoke-sw:hover {
   background-color: #67809f;
+  color: #ffffff;
+  .bespoke-btn {
+    background-color: #ffffff;
+    color: #67809f;
+  }
+  .dots {
+    background-color: #ffffff;
+    color: #67809f;
+  }
 }
 
 #it-sup:hover {
@@ -85,20 +90,13 @@
 }
 
 .prem-res {
-  background-image: url("../../IMG/case-study.jpg");
   background-size: cover;
-  display: flex;
-  flex-direction: column-reverse;
-  align-content: flex-start;
-
-  padding: 0 0 50px 0;
-
+  // padding: 0 0 50px 0;
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
   width: 100%;
   height: 300px;
   max-width: 100%;
-  vertical-align: middle;
   border: 0;
 }
 
@@ -182,6 +180,12 @@
 
 .img-container-1 {
   border: 1px solid #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../IMG/case-study.jpg");
+  height: auto;
+  max-width: 100%;
+  position: relative;
 }
 
 .img-container-2 {
