@@ -3,6 +3,8 @@
   height: 70px;
   background-image: url("../../IMG/NM-logo-head.png");
   background-size: cover;
+  display: block;
+  max-width: 100%;
 }
 
 .call-us {
@@ -12,6 +14,11 @@
   justify-content: center;
   height: 56px;
   width: 56px;
+}
+
+.header-top-half {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .search-bar-items {
@@ -42,6 +49,8 @@
   top: 0px;
   height: 47px;
   width: 47px;
+  border: none;
+  font-size: 20px;
 }
 
 .fa-bars {

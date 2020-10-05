@@ -9,6 +9,11 @@ a {
   color: #ffffff;
 }
 
+body {
+  width: 100%;
+  margin: 0;
+}
+
 /* main img banner holding the image and the text */
 .main-banner {
   display: -webkit-box;
@@ -67,26 +72,87 @@ a {
 
 #it-sup:hover {
   background-color: #4183d7;
+  color: #ffffff;
+}
+
+#it-sup:hover .it-sup-btn {
+  background-color: #ffffff;
+  color: #4183d7;
+}
+
+#it-sup:hover .monitor {
+  background-color: #ffffff;
+  color: #4183d7;
 }
 
 #dig-mark:hover {
   background-color: #2ecc71;
 }
 
+#dig-mark:hover .digi-mark-btn {
+  background-color: #ffffff;
+  color: #2ecc71;
+}
+
+#dig-mark:hover .graph {
+  background-color: #ffffff;
+  color: #2ecc71;
+}
+
 #tel-serv:hover {
   background-color: #d64541;
+}
+
+#tel-serv:hover .telecoms-btn {
+  background-color: #ffffff;
+  color: #d64541;
+}
+
+#tel-serv:hover .telephone {
+  background-color: #ffffff;
+  color: #d64541;
 }
 
 #web-serv:hover {
   background-color: #926fb1;
 }
 
+#web-serv:hover .web-des-btn {
+  background-color: #ffffff;
+  color: #926fb1;
+}
+
+#web-serv:hover .angle-brac {
+  background-color: #ffffff;
+  color: #926fb1;
+}
+
 #cyber-sec:hover {
   background-color: #f62459;
 }
 
+#cyber-sec:hover .cyber-sec-btn {
+  background-color: #ffffff;
+  color: #f62459;
+}
+
+#cyber-sec:hover .c-sec {
+  background-color: #ffffff;
+  color: #f62459;
+}
+
 #dev-train:hover {
   background-color: #926fb1;
+}
+
+#dev-train:hover .dev-train-btn {
+  background-color: #ffffff;
+  color: #926fb1;
+}
+
+#dev-train:hover .scs {
+  background-color: #ffffff;
+  color: #926fb1;
 }
 
 .latest-cards-main {
@@ -121,42 +187,22 @@ a {
 }
 
 .birthday {
-  background-image: url("../../IMG/birthday-boy.jpg");
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
   width: 100%;
-  height: 300px;
+  height: 100%;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
 }
 
 .jordan {
-  background-image: url("../../IMG/jordan-vid.jpg");
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
   width: 100%;
-  height: 300px;
+  height: 100%;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
@@ -189,13 +235,23 @@ a {
 }
 
 .posted-by {
+  color: #666666;
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #ccc;
-  display: table;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.posted-by p {
+  margin: 0;
 }
 
 .posted-by::after {
@@ -205,14 +261,14 @@ a {
 }
 
 .little-nm {
-  background-image: url("../../IMG/NM-logo-little.png");
-  max-width: 47px;
+  width: 47px;
+  height: 47px;
   vertical-align: middle;
-  border: 0;
 }
 
 .img-container-1 {
   border: 1px solid #cccccc;
+  margin-bottom: -20px;
   height: auto;
   max-width: 100%;
   position: relative;
@@ -224,10 +280,24 @@ a {
 
 .img-container-2 {
   border: 1px solid #cccccc;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+#birthday-img {
+  width: 100%;
 }
 
 .img-container-3 {
   border: 1px solid #cccccc;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+#jordan-img {
+  width: 100%;
 }
 
 .bottom-half-prem-res {
@@ -331,20 +401,10 @@ a {
   border-color: #4183d7;
 }
 
-.it-sup-btn:hover {
-  background-color: #ffffff;
-  color: #4183d7;
-}
-
 .digi-mark-btn {
   color: #ffffff;
   background-color: #2ecc71;
   border-color: #2ecc71;
-}
-
-.digi-mark-btn:hover {
-  background-color: #ffffff;
-  color: #2ecc71;
 }
 
 .telecoms-btn {
@@ -353,20 +413,10 @@ a {
   border-color: #d64541;
 }
 
-.telecoms-btn:hover {
-  background-color: #ffffff;
-  color: #d64541;
-}
-
 .web-des-btn {
   color: #ffffff;
   background-color: #926fb1;
   border-color: #926fb1;
-}
-
-.web-des-btn:hover {
-  background-color: #ffffff;
-  color: #926fb1;
 }
 
 .cyber-sec-btn {
@@ -375,20 +425,10 @@ a {
   border-color: #f62459;
 }
 
-.cyber-sec-btn:hover {
-  background-color: #ffffff;
-  color: #f62459;
-}
-
 .dev-train-btn {
   color: #ffffff;
   background-color: #926fb1;
   border-color: #926fb1;
-}
-
-.dev-train-btn:hover {
-  background-color: #ffffff;
-  color: #926fb1;
 }
 
 .find-out-more-btn {
@@ -459,6 +499,7 @@ a {
   padding: 0 10px;
   line-height: 1.4rem;
   font-weight: 600;
+  position: absolute;
 }
 
 .contact-us {
@@ -520,6 +561,8 @@ a {
   height: 70px;
   background-image: url("../../IMG/NM-logo-head.png");
   background-size: cover;
+  display: block;
+  max-width: 100%;
 }
 
 .call-us {
@@ -538,6 +581,14 @@ a {
           justify-content: center;
   height: 56px;
   width: 56px;
+}
+
+.header-top-half {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .search-bar-items {
@@ -570,6 +621,8 @@ a {
   top: 0px;
   height: 47px;
   width: 47px;
+  border: none;
+  font-size: 20px;
 }
 
 .fa-bars {
@@ -628,54 +681,24 @@ a {
   background-color: #4183d7;
 }
 
-.monitor:hover {
-  background-color: #ffffff;
-  color: #4183d7;
-}
-
 .graph {
   background-color: #2ecc71;
-}
-
-.graph:hover {
-  background-color: #ffffff;
-  color: #2ecc71;
 }
 
 .telephone {
   background-color: #d64541;
 }
 
-.telephone:hover {
-  background-color: #ffffff;
-  color: #d64541;
-}
-
 .angle-brac {
   background-color: #926fb1;
-}
-
-.angle-brac:hover {
-  background-color: #ffffff;
-  color: #926fb1;
 }
 
 .c-sec {
   background-color: #f62459;
 }
 
-.c-sec:hover {
-  background-color: #ffffff;
-  color: #f62459;
-}
-
 .scs {
   background-color: #926fb1;
-}
-
-.scs:hover {
-  background-color: #ffffff;
-  color: #926fb1;
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -687,6 +710,12 @@ a {
 @media (max-width: 991px) and (min-width: 768px) {
   .call-us-btn {
     display: none !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #search-icon {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */

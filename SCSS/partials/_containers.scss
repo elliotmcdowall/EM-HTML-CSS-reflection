@@ -45,26 +45,75 @@
 
 #it-sup:hover {
   background-color: #4183d7;
+  color: #ffffff;
+  .it-sup-btn {
+    background-color: #ffffff;
+    color: #4183d7;
+  }
+  .monitor {
+    background-color: #ffffff;
+    color: #4183d7;
+  }
 }
 
 #dig-mark:hover {
   background-color: #2ecc71;
+  .digi-mark-btn {
+    background-color: #ffffff;
+    color: #2ecc71;
+  }
+  .graph {
+    background-color: #ffffff;
+    color: #2ecc71;
+  }
 }
 
 #tel-serv:hover {
   background-color: #d64541;
+  .telecoms-btn {
+    background-color: #ffffff;
+    color: #d64541;
+  }
+  .telephone {
+    background-color: #ffffff;
+    color: #d64541;
+  }
 }
 
 #web-serv:hover {
   background-color: #926fb1;
+  .web-des-btn {
+    background-color: #ffffff;
+    color: #926fb1;
+  }
+  .angle-brac {
+    background-color: #ffffff;
+    color: #926fb1;
+  }
 }
 
 #cyber-sec:hover {
   background-color: #f62459;
+  .cyber-sec-btn {
+    background-color: #ffffff;
+    color: #f62459;
+  }
+  .c-sec {
+    background-color: #ffffff;
+    color: #f62459;
+  }
 }
 
 #dev-train:hover {
   background-color: #926fb1;
+  .dev-train-btn {
+    background-color: #ffffff;
+    color: #926fb1;
+  }
+  .scs {
+    background-color: #ffffff;
+    color: #926fb1;
+  }
 }
 
 .latest-cards-main {
@@ -101,32 +150,22 @@
 }
 
 .birthday {
-  background-image: url("../../IMG/birthday-boy.jpg");
   background-size: cover;
-  display: flex;
-  flex-direction: column-reverse;
-  align-content: flex-start;
-
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
   width: 100%;
-  height: 300px;
+  height: 100%;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
 }
 
 .jordan {
-  background-image: url("../../IMG/jordan-vid.jpg");
   background-size: cover;
-  display: flex;
-  flex-direction: column-reverse;
-  align-content: flex-start;
-
   border-radius: 3px 3px 0 0;
   border: 1px solid #cccccc;
   width: 100%;
-  height: 300px;
+  height: 100%;
   max-width: 100%;
   vertical-align: middle;
   border: 0;
@@ -154,13 +193,19 @@
 }
 
 .posted-by {
+  color: #666666;
   margin-top: 30px;
   padding-top: 30px;
   border-top: 1px solid #ccc;
-  display: table;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  & p {
+    margin: 0;
+  }
 }
 
 .posted-by::after {
@@ -172,15 +217,15 @@
 }
 
 .little-nm {
-  background-image: url("../../IMG/NM-logo-little.png");
-  max-width: 47px;
+  width: 47px;
+  height: 47px;
+
   vertical-align: middle;
-  border: 0;
 }
 
 .img-container-1 {
   border: 1px solid #cccccc;
-
+  margin-bottom: -20px;
   height: auto;
   max-width: 100%;
   position: relative;
@@ -192,10 +237,24 @@
 
 .img-container-2 {
   border: 1px solid #cccccc;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+#birthday-img {
+  width: 100%;
 }
 
 .img-container-3 {
   border: 1px solid #cccccc;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+#jordan-img {
+  width: 100%;
 }
 
 .bottom-half-prem-res {
