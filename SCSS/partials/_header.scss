@@ -24,6 +24,7 @@
 .search-bar-items {
   min-width: 100%;
   position: relative;
+  margin-top: 11px;
 }
 
 #search-bar {
@@ -82,4 +83,12 @@
   padding: 20px 15px 10px 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+//NAV BAR-------------------------------------------------------------------------------------------------//
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

@@ -49,3 +49,54 @@
 .linkedin:hover {
   background-color: #0077b5;
 }
+
+.accreditation-main {
+  padding: 50px 0;
+  width: 944px;
+  height: 188px;
+}
+
+.accreditation-container {
+  width: 750px;
+}
+
+.accreditation-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.google {
+  background-image: url(../../IMG/google-partner.png);
+  height: 82px;
+  width: 220px;
+  background-repeat: no-repeat;
+}
+
+.microsoft {
+  background-image: url(../../IMG/silver-microsoft-partner.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.future-50 {
+  background-image: url(../../IMG/future-50-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.iso {
+  background-image: url(../../IMG/iso-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.carbon {
+  background-image: url(../../IMG/norfolk-carbon-charter-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}

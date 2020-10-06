@@ -1,9 +1,22 @@
 /* main img banner holding the image and the text */
+
+.primary-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .main-banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(to right, rgba(7, 7, 7, 1), rgba(7, 7, 7, 0)), url("../../IMG/big-lock.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(7, 7, 7, 1),
+      rgba(7, 7, 7, 0)
+    ),
+    url("../../IMG/big-lock.jpg");
   background-position: center;
   width: 100%;
   height: 681px;
@@ -17,13 +30,15 @@
 }
 
 .container-block-cards {
+  display: flex;
+  flex-direction: column;
   padding: 50px 15px 50px 15px;
 }
 
 .block-cards {
   border: 1px solid #cccccc;
   border-radius: 3px;
-  margin: 30px 0px 50px;
+  margin: 15px 0px;
   padding: 30px;
   text-align: center;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
@@ -116,7 +131,12 @@
   }
 }
 
+.latest-title-container {
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+}
+
 .latest-cards-main {
+  display: flex;
   margin-left: -15px;
   margin-right: -15px;
   margin-top: -30px;
@@ -279,4 +299,45 @@
   padding: 30px;
   border-radius: 0 0 3px 3px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
+}
+
+.client-group {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+// .client-container {
+//   display: none;
+// }
+
+.client-inner {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.client-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.busseys {
+  background-image: url(../../IMG/bussey-blk.jpg);
+  padding: 0 20px;
+}
+
+.crane {
+  background-image: url(../../IMG/crane-blk.jpg);
+  padding: 0 20px;
+}
+
+.beat {
+  background-image: url(../../IMG/beat-blk.jpg);
+  padding: 0 20px;
+}
+
+.diver {
+  background-image: url(../../IMG/northern-blk.jpg);
 }

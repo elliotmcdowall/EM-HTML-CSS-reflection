@@ -1,17 +1,84 @@
 @media (max-width: 991px) and (min-width: 768px) {
-    #search-bar {
-        display: none;
-    }
+  #search-bar {
+    display: none;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    .call-us-btn {
-        display: none !important;
-    }
+  .call-us-btn {
+    display: none !important;
+  }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    #search-icon {
-        display: none;
-    }
+  #search-icon {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #tel-serv,
+  #web-serv,
+  #cyber-sec,
+  #dev-train {
+    width: 345px;
+    height: 312px;
+    margin: 15px 15px 15px 10px;
+  }
+  .container-block-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #tel-serv,
+  #web-serv,
+  #cyber-sec,
+  #dev-train {
+    width: 455px;
+    height: 290px;
+    margin: 15px 15px 15px 10px;
+  }
+  .container-block-cards {
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  #bespoke-sw,
+  #it-sup,
+  #dig-mark {
+    width: 294px;
+    height: 356px;
+    margin: 30px 15px 30px 15px;
+  }
+}
+
+@media (min-with: 768px) {
+  .latest-cards {
+    width: 375px;
+    height: 600px;
+    padding: 0px 15px;
+  }
+  .latest-cards-main {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .jordy {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .client-container {
+    display: flex;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-nav-bar {
+    display: none;
+  }
 }
