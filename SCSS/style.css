@@ -628,8 +628,8 @@ body {
   height: 188px;
 }
 
-.accreditation-container {
-  width: 750px;
+.accreditations-container {
+  padding: 50px 0;
 }
 
 .accreditation-list {
@@ -640,9 +640,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .google {
@@ -935,6 +935,36 @@ body {
 
 @media (max-width: 992px) {
   .main-nav-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .accreditations-container {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .accreditations-container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .accreditations-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 991px) {
+  .block-cards {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 768px) {
+  .mid-search-outer {
     display: none;
   }
 }

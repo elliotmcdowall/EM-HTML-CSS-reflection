@@ -56,14 +56,14 @@
   height: 188px;
 }
 
-.accreditation-container {
-  width: 750px;
+.accreditations-container {
+  padding: 50px 0;
 }
 
 .accreditation-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .google {
