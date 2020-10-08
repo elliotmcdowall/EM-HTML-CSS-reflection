@@ -12,6 +12,9 @@
   margin-right: auto;
   margin-left: auto;
   padding: 47px 0 43px 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 .social {
@@ -66,6 +69,7 @@
   justify-content: center;
 }
 
+// ongoing issue with this google image----------------------------------------------------------------
 .google {
   background-image: url(../../IMG/google-partner.png);
   height: 82px;
@@ -96,6 +100,39 @@
 
 .carbon {
   background-image: url(../../IMG/norfolk-carbon-charter-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+//-------------------------------client container----------------------------------------------------------
+
+.client-container {
+  display: none;
+}
+
+.busseys {
+  background-image: url(../../IMG/bussey-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.crane {
+  background-image: url(../../IMG/crane-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.beat {
+  background-image: url(../../IMG/beat-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.diver {
+  background-image: url(../../IMG/northern-blk.jpg);
   height: auto;
   width: 100%;
   background-repeat: no-repeat;

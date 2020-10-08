@@ -1,16 +1,10 @@
-@media (max-width: 991px) and (min-width: 768px) {
-  #search-bar {
+@media (min-width: 768px) {
+  .search-bar {
     display: none;
   }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
   .call-us-btn {
     display: none !important;
   }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
   #search-icon {
     display: none;
   }
@@ -41,18 +35,15 @@
     height: 290px;
     margin: 15px 15px 15px 10px;
   }
-  .container-block-cards {
-    align-items: center;
-  }
-}
-
-@media (min-width: 992px) {
   #bespoke-sw,
   #it-sup,
   #dig-mark {
     width: 294px;
     height: 356px;
     margin: 30px 15px 30px 15px;
+  }
+  .container-block-cards {
+    align-items: center;
   }
 }
 
@@ -71,12 +62,6 @@
   }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-  .client-container {
-    display: flex;
-  }
-}
-
 @media (max-width: 992px) {
   .main-nav-bar {
     display: none;
@@ -89,7 +74,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .accreditations-container {
     width: 750px;
   }
@@ -101,14 +86,72 @@
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1200px) {
+  .accreditations-container {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 992px) {
   .block-cards {
     max-width: 720px;
   }
 }
 
-@media (min-width: 991px) and (max-width: 768px) {
-  .mid-search-outer {
-    display: none;
+@media (min-width: 768px) {
+  .mid-search-bar {
+    display: block;
+  }
+}
+
+@media (min-width: 1260px) {
+  #tel-serv,
+  #web-serv,
+  #cyber-sec,
+  #dev-train {
+    width: 270px;
+    height: 312px;
+    margin: 15px 15px 15px 10px;
+  }
+  #bespoke-sw,
+  #it-sup,
+  #dig-mark {
+    width: 370px;
+    height: 312px;
+    margin: 30px 15px 30px 15px;
+  }
+  .container-block-cards {
+    align-items: center;
+  }
+}
+
+//------------------------------contact us / about etc footer section--------------------------------------//
+
+@media (min-width: 768px) {
+  .container-foot {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // align-content: space-between;
+  }
+}
+
+// @media (min-width: 992px) {
+//   .container-foot {
+
+//   }
+// }
+
+// @media (min-width: 1260px) {
+//   .container-foot {
+
+//   }
+// }
+
+//-----------------------------clients container----------------------------------------------------------//
+
+@media (min-width: 768px) {
+  .client-container {
+    display: block;
   }
 }

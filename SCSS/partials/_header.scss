@@ -16,6 +16,16 @@
   width: 56px;
 }
 
+.mid-search-bar {
+  width: 174px;
+  height: 47px;
+  display: none;
+}
+
+.search-style-mid {
+  background-color: #ffffff;
+}
+
 .header-top-half {
   display: flex;
   flex-wrap: nowrap;
@@ -27,7 +37,7 @@
   margin-top: 11px;
 }
 
-#search-bar {
+.search-bar {
   background-color: rgba(0, 0, 0, 0.1);
   outline: 1px solid hsla(0, 0%, 100%, 0.2);
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -62,6 +72,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 10px;
 }
 

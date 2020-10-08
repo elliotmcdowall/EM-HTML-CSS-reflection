@@ -18,8 +18,7 @@ body {
 .primary-container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 20px 15px;
 }
 
 .main-banner {
@@ -582,6 +581,15 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 47px 0 43px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .social {
@@ -680,6 +688,38 @@ body {
   background-repeat: no-repeat;
 }
 
+.client-container {
+  display: none;
+}
+
+.busseys {
+  background-image: url(../../IMG/bussey-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.crane {
+  background-image: url(../../IMG/crane-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.beat {
+  background-image: url(../../IMG/beat-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.diver {
+  background-image: url(../../IMG/northern-blk.jpg);
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
 .netmatters-logo {
   width: 402px;
   height: 70px;
@@ -707,6 +747,16 @@ body {
   width: 56px;
 }
 
+.mid-search-bar {
+  width: 174px;
+  height: 47px;
+  display: none;
+}
+
+.search-style-mid {
+  background-color: #ffffff;
+}
+
 .header-top-half {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -721,7 +771,7 @@ body {
   margin-top: 11px;
 }
 
-#search-bar {
+.search-bar {
   background-color: rgba(0, 0, 0, 0.1);
   outline: 1px solid rgba(255, 255, 255, 0.2);
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -764,6 +814,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-bottom: 10px;
 }
 
@@ -839,19 +892,13 @@ body {
   background-color: #926fb1;
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-  #search-bar {
+@media (min-width: 768px) {
+  .search-bar {
     display: none;
   }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
   .call-us-btn {
     display: none !important;
   }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
   #search-icon {
     display: none;
   }
@@ -888,20 +935,17 @@ body {
     height: 290px;
     margin: 15px 15px 15px 10px;
   }
-  .container-block-cards {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-@media (min-width: 992px) {
   #bespoke-sw,
   #it-sup,
   #dig-mark {
     width: 294px;
     height: 356px;
     margin: 30px 15px 30px 15px;
+  }
+  .container-block-cards {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -925,14 +969,6 @@ body {
   }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
-  .client-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
 @media (max-width: 992px) {
   .main-nav-bar {
     display: none;
@@ -945,7 +981,7 @@ body {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .accreditations-container {
     width: 750px;
   }
@@ -957,15 +993,63 @@ body {
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 1200px) {
+  .accreditations-container {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 992px) {
   .block-cards {
     max-width: 720px;
   }
 }
 
-@media (min-width: 991px) and (max-width: 768px) {
-  .mid-search-outer {
-    display: none;
+@media (min-width: 768px) {
+  .mid-search-bar {
+    display: block;
+  }
+}
+
+@media (min-width: 1260px) {
+  #tel-serv,
+  #web-serv,
+  #cyber-sec,
+  #dev-train {
+    width: 270px;
+    height: 312px;
+    margin: 15px 15px 15px 10px;
+  }
+  #bespoke-sw,
+  #it-sup,
+  #dig-mark {
+    width: 370px;
+    height: 312px;
+    margin: 30px 15px 30px 15px;
+  }
+  .container-block-cards {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-foot {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .client-container {
+    display: block;
   }
 }
 /*# sourceMappingURL=style.css.map */
