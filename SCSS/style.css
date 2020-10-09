@@ -66,6 +66,28 @@ body {
   -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
   color: #000000;
+  max-width: 720px;
+  max-height: 290px;
+}
+
+.block-h2 {
+  font-size: 1.125rem;
+  margin: 0 0 11px;
+}
+
+.block-p {
+  font-size: 13px;
+}
+
+.black-line {
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333645;
+  margin: auto;
+  width: 28px;
+  height: 3px;
 }
 
 #bespoke-sw:hover {
@@ -173,6 +195,23 @@ body {
           box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
 }
 
+.latest-line {
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333645;
+  height: 5px;
+}
+
+.latest-text-main {
+  display: block;
+  padding: 40px 0;
+  color: #333645;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 .latest-cards-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -183,7 +222,7 @@ body {
 }
 
 .latest-cards {
-  padding: 50px 15px 50px 15px;
+  padding: 15px 15px 15px 15px;
 }
 
 .container-nm {
@@ -798,6 +837,7 @@ body {
   width: 47px;
   border: none;
   font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .fa-bars {
@@ -960,9 +1000,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .jordy {
     display: none;
