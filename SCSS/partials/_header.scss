@@ -98,6 +98,48 @@
   margin-left: auto;
 }
 
+.support-btn {
+  width: 145px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #4183d7;
+  padding: 5px 15px;
+  font-size: 18px;
+  display: none;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.contact-btn {
+  width: 152px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #999aa2;
+  padding: 5px 15px;
+  font-size: 18px;
+  display: none;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.little-search-btn {
+  outline: none;
+  padding: 7px 20px 3px;
+  border-radius: 3px;
+  width: 63px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #999aa2;
+  margin-left: 20px;
+
+}
+
 //NAV BAR-------------------------------------------------------------------------------------------------//
 
 .nav-list {

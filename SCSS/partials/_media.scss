@@ -47,6 +47,25 @@
   }
 }
 
+//-----------------------------------------------------ABOUT NETMATTERS------------------------------------
+
+@media (min-width: 992px) {
+  .container-nm {
+  background-image: url(../../IMG/netmatters-logo-background.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: auto 100%;
+  }
+}
+
+@media (min-width:1260px) {
+  .about-nm {
+    width: 40%;
+      }
+}
+
+//---------------------------------------------------------------------------------------------------------
+
 @media (min-with: 768px) {
   .latest-cards {
     width: 375px;
@@ -94,6 +113,16 @@
 @media (min-width: 992px) {
   .block-cards {
     max-width: 720px;
+    // min-height: 356px;
+  }
+}
+
+@media (min-width: 992px) {
+  .support-btn {
+    display: inline-flex;
+  }
+  .contact-btn {
+    display: inline-flex;
   }
 }
 

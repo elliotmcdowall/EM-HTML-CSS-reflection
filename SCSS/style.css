@@ -19,6 +19,12 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main-banner {
@@ -65,7 +71,8 @@ body {
   text-align: center;
   -webkit-box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
-  color: #000000;
+  color: #333645;
+  width: 100%;
   max-width: 720px;
   max-height: 290px;
 }
@@ -234,6 +241,27 @@ body {
   padding-bottom: 50px;
   padding-left: 15px;
   padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-nm-title {
+  font-size: 36px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.about-nm {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .prem-res {
@@ -479,6 +507,8 @@ body {
   vertical-align: middle;
   background-image: none;
   border: 1px solid transparent;
+  max-height: 47px;
+  max-width: 174px;
 }
 
 .read-more-btn {
@@ -872,6 +902,47 @@ body {
   margin-left: auto;
 }
 
+.support-btn {
+  width: 145px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #4183d7;
+  padding: 5px 15px;
+  font-size: 18px;
+  display: none;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.contact-btn {
+  width: 152px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #999aa2;
+  padding: 5px 15px;
+  font-size: 18px;
+  display: none;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.little-search-btn {
+  outline: none;
+  padding: 7px 20px 3px;
+  border-radius: 3px;
+  width: 63px;
+  height: 56px;
+  color: #ffffff;
+  background-color: #999aa2;
+  margin-left: 20px;
+}
+
 .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -989,6 +1060,21 @@ body {
   }
 }
 
+@media (min-width: 992px) {
+  .container-nm {
+    background-image: url(../../IMG/netmatters-logo-background.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: auto 100%;
+  }
+}
+
+@media (min-width: 1260px) {
+  .about-nm {
+    width: 40%;
+  }
+}
+
 @media (min-with: 768px) {
   .latest-cards {
     width: 375px;
@@ -1039,6 +1125,19 @@ body {
 @media (min-width: 992px) {
   .block-cards {
     max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .support-btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .contact-btn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
 }
 
