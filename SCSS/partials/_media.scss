@@ -119,10 +119,13 @@
 
 @media (min-width: 992px) {
   .support-btn {
-    display: inline-flex;
+    display: flex;
   }
   .contact-btn {
-    display: inline-flex;
+    display: flex;
+  }
+  .little-search-btn {
+    display: flex
   }
 }
 
