@@ -16,10 +16,13 @@
   width: 56px;
 }
 
+.mid-search-outer {
+  display: flex;
+}
+
 .mid-search-bar {
   width: 174px;
   height: 47px;
-  display: none;
 }
 
 .search-style-mid {
@@ -84,14 +87,6 @@
   width: 100%;
 }
 
-// .call-us {
-
-// }
-
-// .header-menu {
-
-// }
-
 .header-container {
   padding: 20px 15px 10px 15px;
   margin-right: auto;
@@ -143,8 +138,65 @@
 
 //NAV BAR-------------------------------------------------------------------------------------------------//
 
+.main-nav-bar {
+  background-color: #333645;
+}
+
+.nav-container {
+  width: 100%;
+  height: 99px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  list-style: none;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+  border-right: 1px solid rgba(0,0,0,.25);
 }
+
+.nav-square {
+  color: #ffffff;
+  text-align: center;
+  height: 99px;
+  padding-bottom: 10px;
+  border-right: 1px solid hsla(0,0%,100%,.1);
+  border-left: 1px solid rgba(0,0,0,.25);
+  // line-height: 1;
+}
+
+.nav-icons {
+  padding-bottom: 10px;
+
+}
+
+.web-des-nav {
+  color: #926fb1;
+}
+
+.it-sup-nav {
+  color: #4183d7;
+  }
+
+.tel-ser-nav {
+  color: #d64541;
+}
+
+.bes-sof-nav {
+  color: #67809f;
+}
+
+.dig-mar-nav {
+  color: #2ecc71;
+}
+
+.cyb-sec-nav {
+  color: #f62459;
+}
+
+//---------------------------------------------------------------------------------------------------------

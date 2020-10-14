@@ -10,6 +10,17 @@
   }
 }
 
+@media (min-width: 992px) {
+  .banner-main-text {
+    width: 40%;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .find-out-more-btn {
+    margin: 0 0 0 50px;
+  }
+}
+
 @media (min-width: 768px) {
   #tel-serv,
   #web-serv,
@@ -47,7 +58,7 @@
   }
 }
 
-//-----------------------------------------------------ABOUT NETMATTERS------------------------------------
+//--------------------------------------------------ABOUT NETMATTERS-----------------------------------------
 
 @media (min-width: 992px) {
   .container-nm {
@@ -126,6 +137,9 @@
   }
   .little-search-btn {
     display: flex
+  }
+  .mid-search-outer {
+    display: none;
   }
 }
 
