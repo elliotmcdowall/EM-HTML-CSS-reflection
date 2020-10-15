@@ -165,9 +165,79 @@
   text-align: center;
   height: 99px;
   padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-square-web-des:hover {
+  background-color: #926fb1;
+  color: #ffffff;
+  .web-des-nav {
+    color: #ffffff;
+  }
+}
+
+.nav-square-it-sup:hover {
+  background-color: #4183d7;
+  color: #ffffff;
+  .it-sup-nav {
+    color: #ffffff;
+  }
+}
+
+.nav-square-tel-ser:hover {
+  background-color: #d64541;
+  color: #ffffff;
+  .tel-ser-nav {
+    color: #ffffff;
+  }
+}
+
+.nav-square-bes-sof:hover {
+  background-color: #67809f;
+  color: #ffffff;
+  .bes-sof-nav {
+    color: #ffffff;
+  }
+}
+
+.nav-square-dig-mar:hover {
+  background-color: #2ecc71;
+  color: #ffffff;
+  .dig-mar-nav {
+    color: #ffffff;
+  }
+}
+
+.nav-square-cyb-sec:hover {
+  background-color: #f62459;
+  color: #ffffff;
+  .cyb-sec-nav {
+    color: #ffffff;
+  }
+}
+
+.nav-inner {
+  display: flex;
+  flex-direction: column;
+  width: 155px;
+  height: 99px;
   border-right: 1px solid hsla(0,0%,100%,.1);
   border-left: 1px solid rgba(0,0,0,.25);
-  // line-height: 1;
+  padding: 19px 0 18px;
+  line-height: 1;
+}
+
+.nav-inner-top-text {
+  font-size: 10px;
+  margin: 0;
+  line-height: 1;
+}
+
+.nav-inner-btm-text {
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
 }
 
 .nav-icons {
