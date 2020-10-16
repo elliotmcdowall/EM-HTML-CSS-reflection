@@ -373,6 +373,10 @@ body {
 
 #birthday-img {
   width: 100%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .img-container-3 {
@@ -384,6 +388,10 @@ body {
 
 #jordan-img {
   width: 100%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 .bottom-half-prem-res {
@@ -1231,6 +1239,20 @@ body {
 
 @media (min-width: 1260px) {
   #prem-res-img:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+}
+
+@media (min-width: 1260px) {
+  #birthday-img:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+}
+
+@media (min-width: 1260px) {
+  #jordan-img:hover {
     -webkit-transform: scale(1.25);
             transform: scale(1.25);
   }
