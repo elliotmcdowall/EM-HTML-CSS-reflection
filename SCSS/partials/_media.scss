@@ -10,6 +10,14 @@
   }
 }
 
+@media (any-hover: hover) {
+.on-hover-btm-bar:hover {
+  display: flex;
+}
+}
+
+//-------------------------------------Main Banner---------------------------------------------------------
+
 @media (min-width: 992px) {
   .banner-main-text {
     width: 40%;
@@ -92,6 +100,26 @@
 @media (min-width: 1260px) {
   #jordan-img:hover {
     transform: scale(1.25);
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-prem {
+    width: 375px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .latest-adam {
+    width: 375px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .latest-jordy {
+    display: none;
   }
 }
 
@@ -188,6 +216,15 @@
   }
   .container-block-cards {
     align-items: center;
+  }
+    .little-search-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 1260px) {
+  .last-search-bar {
+    display: block;
   }
 }
 

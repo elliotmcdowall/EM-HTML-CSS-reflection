@@ -881,6 +881,16 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
+#search-icon-last {
+  right: 0px;
+  top: 0px;
+  height: 47px;
+  width: 47px;
+  border: none;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .fa-bars {
   font-size: 25px;
 }
@@ -953,6 +963,14 @@ body {
   background-color: #999aa2;
   margin-left: 20px;
   display: none;
+}
+
+.last-search-bar {
+  display: none;
+  border-radius: 0;
+  width: 174px;
+  height: 56px;
+  margin-left: 20px;
 }
 
 .main-nav-bar {
@@ -1107,6 +1125,17 @@ body {
   color: #f62459;
 }
 
+.on-hover-btm-bar {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .icon-background {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1163,6 +1192,14 @@ body {
   }
   #search-icon {
     display: none;
+  }
+}
+
+@media (any-hover: hover) {
+  .on-hover-btm-bar:hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1255,6 +1292,38 @@ body {
   #jordan-img:hover {
     -webkit-transform: scale(1.25);
             transform: scale(1.25);
+  }
+}
+
+@media (min-width: 768px) {
+  .latest-prem {
+    width: 375px;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .latest-adam {
+    width: 375px;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .latest-jordy {
+    display: none;
   }
 }
 
@@ -1358,6 +1427,15 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .little-search-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 1260px) {
+  .last-search-bar {
+    display: block;
   }
 }
 
