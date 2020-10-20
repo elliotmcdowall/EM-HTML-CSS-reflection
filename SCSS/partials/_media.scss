@@ -1,4 +1,6 @@
 @media (min-width: 768px) {
+
+
   .search-bar {
     display: none;
   }
@@ -58,6 +60,9 @@
   .mid-search-bar {
     display: block;
   }
+  .search-bar-middle {
+    display: block;
+  }
   .container-foot {
   flex-direction: row;
   flex-wrap: wrap;
@@ -67,15 +72,23 @@
   .client-container {
   display: block;
   }
+    .call-us {
+    display: none;
+  }
 }
 
 @media (any-hover: hover) {
 .on-hover-btm-bar:hover {
   display: flex;
 }
+
 }
 
 @media (min-width: 992px) {
+
+    .mobile-break-invis {
+    display: block;
+  }
   .banner-main-text {
     width: 40%;
     text-align: left;
@@ -130,7 +143,12 @@
   .mid-search-outer {
     display: none;
   }
-
+  .search-bar-middle {
+    display: none;
+  }
+  .call-us {
+    display: none;
+  }
 }
 
 @media (min-width:1260px) {
@@ -174,6 +192,21 @@
    display: block;
   }
   #search-icon-last {
+    display: block;
+  }
+  .search-style-mid {
+    display: none;
+  }
+  .call-us {
+    display: none;
+  }
+  .little-search-btn {
+    display: none;
+  }
+  .little-search-btn-last {
+    display: none;
+  }
+  #last-search-div {
     display: block;
   }
 }
