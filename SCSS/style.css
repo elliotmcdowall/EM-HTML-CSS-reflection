@@ -10,8 +10,18 @@ a {
 }
 
 body {
+  height: 100%;
   width: 100%;
+  overflow-x: hidden;
   margin: 0;
+}
+
+.main-div {
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
 }
 
 /* main img banner holding the image and the text */
@@ -838,6 +848,7 @@ body {
 }
 
 .header-top-half {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -846,7 +857,7 @@ body {
 }
 
 .search-bar-items {
-  min-width: 100%;
+  width: 100%;
   position: relative;
   margin-top: 11px;
 }
@@ -870,6 +881,10 @@ body {
   position: relative;
 }
 
+#last-search-div {
+  position: relative;
+}
+
 #search-icon {
   position: absolute;
   right: 0px;
@@ -882,6 +897,8 @@ body {
 }
 
 #search-icon-last {
+  display: none;
+  position: absolute;
   right: 0px;
   top: 0px;
   height: 47px;
@@ -896,6 +913,7 @@ body {
 }
 
 .header-items {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -914,7 +932,6 @@ body {
 .NM-header-logo {
   padding: 0;
   vertical-align: middle;
-  width: 100%;
 }
 
 .header-container {
@@ -967,6 +984,7 @@ body {
 
 .last-search-bar {
   display: none;
+  position: relative;
   border-radius: 0;
   width: 174px;
   height: 56px;
@@ -974,6 +992,7 @@ body {
 }
 
 .main-nav-bar {
+  display: none;
   background-color: #333645;
 }
 
@@ -1193,28 +1212,6 @@ body {
   #search-icon {
     display: none;
   }
-}
-
-@media (any-hover: hover) {
-  .on-hover-btm-bar:hover {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media (min-width: 992px) {
-  .banner-main-text {
-    width: 40%;
-    text-align: left;
-    padding-left: 50px;
-  }
-  .find-out-more-btn {
-    margin: 0 0 0 50px;
-  }
-}
-
-@media (min-width: 768px) {
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -1234,68 +1231,6 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-}
-
-@media (min-width: 992px) {
-  #tel-serv,
-  #web-serv,
-  #cyber-sec,
-  #dev-train {
-    width: 455px;
-    height: 290px;
-    margin: 15px 15px 15px 10px;
-  }
-  #bespoke-sw,
-  #it-sup,
-  #dig-mark {
-    width: 294px;
-    height: 356px;
-    margin: 30px 15px 30px 15px;
-  }
-  .container-block-cards {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-@media (min-width: 992px) {
-  .container-nm {
-    background-image: url(../../IMG/netmatters-logo-background.png);
-    background-repeat: no-repeat;
-    background-position: 100%;
-    background-size: auto 100%;
-  }
-}
-
-@media (min-width: 1260px) {
-  .about-nm {
-    width: 40%;
-  }
-}
-
-@media (min-width: 1260px) {
-  #prem-res-img:hover {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-  }
-}
-
-@media (min-width: 1260px) {
-  #birthday-img:hover {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-  }
-}
-
-@media (min-width: 1260px) {
-  #jordan-img:hover {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-  }
-}
-
-@media (min-width: 768px) {
   .latest-prem {
     width: 375px;
     height: 600px;
@@ -1325,9 +1260,6 @@ body {
   .latest-jordy {
     display: none;
   }
-}
-
-@media (min-with: 768px) {
   .latest-cards {
     width: 375px;
     height: 600px;
@@ -1342,45 +1274,84 @@ body {
   .jordy {
     display: none;
   }
-}
-
-@media (max-width: 992px) {
-  .main-nav-bar {
-    display: none;
-  }
-}
-
-@media (max-width: 768px) {
   .accreditations-container {
     display: none;
   }
-}
-
-@media (min-width: 768px) {
   .accreditations-container {
     width: 750px;
   }
+  .mid-search-bar {
+    display: block;
+  }
+  .container-foot {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .client-container {
+    display: block;
+  }
+}
+
+@media (any-hover: hover) {
+  .on-hover-btm-bar:hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media (min-width: 992px) {
+  .banner-main-text {
+    width: 40%;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .find-out-more-btn {
+    margin: 0 0 0 50px;
+  }
+  #tel-serv,
+  #web-serv,
+  #cyber-sec,
+  #dev-train {
+    width: 455px;
+    height: 290px;
+    margin: 15px 15px 15px 10px;
+  }
+  #bespoke-sw,
+  #it-sup,
+  #dig-mark {
+    width: 294px;
+    height: 356px;
+    margin: 30px 15px 30px 15px;
+  }
+  .container-block-cards {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container-nm {
+    background-image: url(../../IMG/netmatters-logo-background.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: auto 100%;
+  }
+  .main-nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .accreditations-container {
     width: 970px;
   }
-}
-
-@media (min-width: 1200px) {
-  .accreditations-container {
-    width: 1200px;
-  }
-}
-
-@media (min-width: 992px) {
   .block-cards {
     max-width: 720px;
   }
-}
-
-@media (min-width: 992px) {
   .support-btn {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1401,13 +1372,25 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .mid-search-bar {
-    display: block;
-  }
-}
-
 @media (min-width: 1260px) {
+  .about-nm {
+    width: 40%;
+  }
+  #prem-res-img:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  #birthday-img:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  #jordan-img:hover {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  .accreditations-container {
+    width: 1200px;
+  }
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -1431,29 +1414,10 @@ body {
   .little-search-btn {
     display: none;
   }
-}
-
-@media (min-width: 1260px) {
   .last-search-bar {
     display: block;
   }
-}
-
-@media (min-width: 768px) {
-  .container-foot {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-@media (min-width: 768px) {
-  .client-container {
+  #search-icon-last {
     display: block;
   }
 }

@@ -9,6 +9,16 @@ a {
 }
 
 body {
+    height: 100%;
     width: 100%;
+    overflow-x: hidden;
     margin: 0;
+}
+
+.main-div {
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
 }

@@ -8,28 +8,6 @@
   #search-icon {
     display: none;
   }
-}
-
-@media (any-hover: hover) {
-.on-hover-btm-bar:hover {
-  display: flex;
-}
-}
-
-//-------------------------------------Main Banner---------------------------------------------------------
-
-@media (min-width: 992px) {
-  .banner-main-text {
-    width: 40%;
-    text-align: left;
-    padding-left: 50px;
-  }
-  .find-out-more-btn {
-    margin: 0 0 0 50px;
-  }
-}
-
-@media (min-width: 768px) {
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -43,9 +21,69 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .latest-prem {
+    width: 375px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .latest-adam {
+    width: 375px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .latest-jordy {
+    display: none;
+  }
+  .latest-cards {
+    width: 375px;
+    height: 600px;
+    padding: 0px 15px;
+  }
+  .latest-cards-main {
+    flex-direction: row;
+  }
+  .jordy {
+    display: none;
+  }
+   .accreditations-container {
+    display: none;
+  }
+  .accreditations-container {
+    width: 750px;
+  }
+  .mid-search-bar {
+    display: block;
+  }
+  .container-foot {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  // align-content: space-between;
+  }
+  .client-container {
+  display: block;
+  }
+}
+
+@media (any-hover: hover) {
+.on-hover-btm-bar:hover {
+  display: flex;
+}
 }
 
 @media (min-width: 992px) {
+  .banner-main-text {
+    width: 40%;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .find-out-more-btn {
+    margin: 0 0 0 50px;
+  }
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -64,121 +102,23 @@
   .container-block-cards {
     align-items: center;
   }
-}
-
-//-------------------------------------------ABOUT NETMATTERS------------------------------------------------
-
-@media (min-width: 992px) {
   .container-nm {
   background-image: url(../../IMG/netmatters-logo-background.png);
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: auto 100%;
   }
-}
-
-@media (min-width:1260px) {
-  .about-nm {
-    width: 40%;
-      }
-}
-
-//-------------------------------------------LATEST NEWS-----------------------------------------------------
-
-@media (min-width: 1260px) {
-  #prem-res-img:hover {
-     transform: scale(1.25);
-  }
-}
-
-@media (min-width: 1260px) {
-  #birthday-img:hover {
-    transform: scale(1.25);
-  }
-}
-
-@media (min-width: 1260px) {
-  #jordan-img:hover {
-    transform: scale(1.25);
-  }
-}
-
-@media (min-width: 768px) {
-  .latest-prem {
-    width: 375px;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .latest-adam {
-    width: 375px;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .latest-jordy {
-    display: none;
-  }
-}
-
-
-//-----------------------------------------------------------------------------------------------------------
-
-@media (min-with: 768px) {
-  .latest-cards {
-    width: 375px;
-    height: 600px;
-    padding: 0px 15px;
-  }
-  .latest-cards-main {
-    flex-direction: row;
-  }
-  .jordy {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
   .main-nav-bar {
-    display: none;
+  display: flex;
   }
-}
-
-@media (max-width: 768px) {
   .accreditations-container {
-    display: none;
+  width: 970px;
   }
-}
-
-@media (min-width: 768px) {
-  .accreditations-container {
-    width: 750px;
-  }
-}
-
-@media (min-width: 992px) {
-  .accreditations-container {
-    width: 970px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .accreditations-container {
-    width: 1200px;
-  }
-}
-
-@media (min-width: 992px) {
   .block-cards {
-    max-width: 720px;
-    // min-height: 356px;
+  max-width: 720px;
+  // min-height: 356px;
   }
-}
-
-@media (min-width: 992px) {
-  .support-btn {
+    .support-btn {
     display: flex;
   }
   .contact-btn {
@@ -190,15 +130,25 @@
   .mid-search-outer {
     display: none;
   }
+
 }
 
-@media (min-width: 768px) {
-  .mid-search-bar {
-    display: block;
+@media (min-width:1260px) {
+  .about-nm {
+    width: 40%;
+      }
+    #prem-res-img:hover {
+     transform: scale(1.25);
   }
-}
-
-@media (min-width: 1260px) {
+    #birthday-img:hover {
+    transform: scale(1.25);
+  }
+    #jordan-img:hover {
+    transform: scale(1.25);
+  }
+  .accreditations-container {
+  width: 1200px;
+  }
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -220,24 +170,219 @@
     .little-search-btn {
     display: none;
   }
-}
-
-@media (min-width: 1260px) {
   .last-search-bar {
+   display: block;
+  }
+  #search-icon-last {
     display: block;
   }
 }
 
+// @media (min-width: 768px) {
+//   #tel-serv,
+//   #web-serv,
+//   #cyber-sec,
+//   #dev-train {
+//     width: 345px;
+//     height: 312px;
+//     margin: 15px 15px 15px 10px;
+//   }
+//   .container-block-cards {
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   #tel-serv,
+//   #web-serv,
+//   #cyber-sec,
+//   #dev-train {
+//     width: 455px;
+//     height: 290px;
+//     margin: 15px 15px 15px 10px;
+//   }
+//   #bespoke-sw,
+//   #it-sup,
+//   #dig-mark {
+//     width: 294px;
+//     height: 356px;
+//     margin: 30px 15px 30px 15px;
+//   }
+//   .container-block-cards {
+//     align-items: center;
+//   }
+// }
+
+//-------------------------------------------ABOUT NETMATTERS------------------------------------------------
+
+// @media (min-width: 992px) {
+//   .container-nm {
+//   background-image: url(../../IMG/netmatters-logo-background.png);
+//   background-repeat: no-repeat;
+//   background-position: 100%;
+//   background-size: auto 100%;
+//   }
+// }
+
+
+
+//-------------------------------------------LATEST NEWS-----------------------------------------------------
+
+// @media (min-width: 1260px) {
+//   #prem-res-img:hover {
+//      transform: scale(1.25);
+//   }
+// }
+
+// @media (min-width: 1260px) {
+//   #birthday-img:hover {
+//     transform: scale(1.25);
+//   }
+// }
+
+// @media (min-width: 1260px) {
+//   #jordan-img:hover {
+//     transform: scale(1.25);
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .latest-prem {
+//     width: 375px;
+//     height: 600px;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//   }
+//   .latest-adam {
+//     width: 375px;
+//     height: 600px;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//   }
+//   .latest-jordy {
+//     display: none;
+//   }
+// }
+
+
+//-----------------------------------------------------------------------------------------------------------
+
+// @media (min-with: 768px) {
+//   .latest-cards {
+//     width: 375px;
+//     height: 600px;
+//     padding: 0px 15px;
+//   }
+//   .latest-cards-main {
+//     flex-direction: row;
+//   }
+//   .jordy {
+//     display: none;
+//   }
+// }
+
+// @media (max-width: 992px) {
+//   .main-nav-bar {
+//     display: none;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .accreditations-container {
+//     display: none;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .accreditations-container {
+//     width: 750px;
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   .accreditations-container {
+//     width: 970px;
+//   }
+// }
+
+// @media (min-width: 1200px) {
+//   .accreditations-container {
+//     width: 1200px;
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   .block-cards {
+//     max-width: 720px;
+//     // min-height: 356px;
+//   }
+// }
+
+// @media (min-width: 992px) {
+//   .support-btn {
+//     display: flex;
+//   }
+//   .contact-btn {
+//     display: flex;
+//   }
+//   .little-search-btn {
+//     display: flex
+//   }
+//   .mid-search-outer {
+//     display: none;
+//   }
+// }
+
+// @media (min-width: 768px) {
+//   .mid-search-bar {
+//     display: block;
+//   }
+// }
+
+// @media (min-width: 1260px) {
+//   #tel-serv,
+//   #web-serv,
+//   #cyber-sec,
+//   #dev-train {
+//     width: 270px;
+//     height: 312px;
+//     margin: 15px 15px 15px 10px;
+//   }
+//   #bespoke-sw,
+//   #it-sup,
+//   #dig-mark {
+//     width: 370px;
+//     height: 312px;
+//     margin: 30px 15px 30px 15px;
+//   }
+//   .container-block-cards {
+//     align-items: center;
+//   }
+//     .little-search-btn {
+//     display: none;
+//   }
+// }
+
+// @media (min-width: 1260px) {
+//   .last-search-bar {
+//     display: block;
+//   }
+// }
+
 //------------------------------contact us / about etc footer section--------------------------------------//
 
-@media (min-width: 768px) {
-  .container-foot {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    // align-content: space-between;
-  }
-}
+// @media (min-width: 768px) {
+//   .container-foot {
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     justify-content: space-around;
+//     // align-content: space-between;
+//   }
+// }
 
 // @media (min-width: 992px) {
 //   .container-foot {
@@ -253,8 +398,8 @@
 
 //-----------------------------clients container----------------------------------------------------------//
 
-@media (min-width: 768px) {
-  .client-container {
-    display: block;
-  }
-}
+// @media (min-width: 768px) {
+//   .client-container {
+//     display: block;
+//   }
+// }
