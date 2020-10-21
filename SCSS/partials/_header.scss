@@ -110,6 +110,8 @@
   font-size: 20px;
   color: #ffffff;
   background-color: #999aa2;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 // #search-icon-last {
@@ -199,9 +201,13 @@
   display: none;
   position: relative;
   border-radius: 0;
-  width: 174px;
+  width: 303px;
   height: 56px;
   margin-left: 20px;
+  border-color: #cccccc;
+  border-width: 1px;
+  padding: 5px 15px 5px 15px;
+  
 }
 
 //NAV BAR-------------------------------------------------------------------------------------------------//

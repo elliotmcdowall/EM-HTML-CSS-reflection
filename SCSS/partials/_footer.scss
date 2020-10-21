@@ -1,7 +1,14 @@
 .contact-us {
   list-style: none;
   padding-left: 0;
+  font-size: 13px;
 }
+
+  .other-contents-text {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 13px;
+  }
 
 .container-foot {
   background-color: #333645;
@@ -15,6 +22,22 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+}
+
+.footer-1 {
+  order: 1;
+}
+
+.footer-2 {
+  order: 2;
+}
+
+.footer-3 {
+  order: 3;
+}
+
+.footer-4 {
+  order: 4;
 }
 
 .social {
@@ -37,9 +60,17 @@
 .media-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  
   align-content: space-between;
 }
+
+.twitter-outer {
+  margin-left: 50px;
+}
+
+// .linkedin-outer {
+//   // align-self: flex-start;
+// } 
 
 .facebook:hover {
   background-color: #3b5998;
@@ -53,9 +84,10 @@
   background-color: #0077b5;
 }
 
-.accreditation-main {
+.accreditations-main {
+  display: none;
   padding: 50px 0;
-  width: 944px;
+  width: 100%;
   height: 188px;
 }
 
@@ -70,6 +102,8 @@
 }
 
 // ongoing issue with this google image----------------------------------------------------------------
+
+
 .google {
   background-image: url(../../IMG/google-partner.png);
   height: 82px;
@@ -79,7 +113,7 @@
 
 .microsoft {
   background-image: url(../../IMG/silver-microsoft-partner.jpg);
-  height: auto;
+  height: 100px;
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -109,31 +143,42 @@
 
 .client-container {
   display: none;
+  width: 100%;
+}
+
+.client-inner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 .busseys {
   background-image: url(../../IMG/bussey-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 46px;
+  width: 122px;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .crane {
   background-image: url(../../IMG/crane-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 46px;
+  width: 185px;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .beat {
   background-image: url(../../IMG/beat-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 46px;
+  width: 47px;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .diver {
   background-image: url(../../IMG/northern-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 46px;
+  width: 208px;
   background-repeat: no-repeat;
+  background-size: contain;
 }

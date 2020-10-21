@@ -10,6 +10,7 @@
   #search-icon {
     display: none;
   }
+  
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -64,38 +65,98 @@
     display: block;
   }
   .container-foot {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  // align-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
   }
+
+  .footer-1 {
+    width: 375px;
+  }
+  .footer-2 {
+    width: 375px;
+  }
+  .footer-3 {
+    width: 375px;
+  }
+  .footer-4 {
+    width: 375px;
+  }
+
+  .facebook {
+    width: 157px;
+  }
+  .twitter-outer {
+    width: 157px;
+    margin-left: 30px;
+  }
+
+  .linkedin-outer {
+    width: 157px;
+  }
+
   .client-container {
-  display: block;
+    display: block;
+  }
+  .client-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   }
     .call-us {
     display: none;
   }
+
+  .accreditations-main {
+    display: flex;
+    width: 750px;
+  }
+  .header-container {
+    width: 750px;
+  }
+  .client-inner {
+    width: 750px;
+  }
+
 }
+
+//--------------------------------------------------------------------------------------------------------
 
 @media (any-hover: hover) {
 .on-hover-btm-bar:hover {
   display: flex;
 }
-
 }
+
+//--------------------------------------------------------------------------------------------------------
 
 @media (min-width: 992px) {
 
-    .mobile-break-invis {
+  .mobile-break-invis {
     display: block;
   }
+  .main-banner-container {
+    justify-content: flex-start;
+    width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+  }
   .banner-main-text {
-    width: 40%;
+    // width: 40%;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 0px;
+    padding-right: 15px;
+
+    
   }
   .find-out-more-btn {
-    margin: 0 0 0 50px;
+    margin: 0;
   }
   #tel-serv,
   #web-serv,
@@ -124,10 +185,7 @@
   .main-nav-bar {
   display: flex;
   }
-  .accreditations-container {
-  width: 970px;
-  }
-  .block-cards {
+   .block-cards {
   max-width: 720px;
   // min-height: 356px;
   }
@@ -143,13 +201,54 @@
   .mid-search-outer {
     display: none;
   }
-  .search-bar-middle {
+  .mid-search-bar {
     display: none;
   }
   .call-us {
     display: none;
   }
+  .accreditations-main {
+    width: 970px;
+  }
+  .header-container {
+    width: 970px;
+  }
+  .nav-container {
+    width: 970px;
+  }
+  .busseys {
+  height: 63px;
+  width: 169px;
+  }
+.crane {
+  height: 63px;
+  width: 258px;
 }
+.beat {
+  height: 63px;
+  width: 65px;
+}
+.diver {
+  height: 63px;
+  width: 289px;
+}
+
+.client-inner {
+  width: 970px;
+}
+
+.outer-container-foot {
+  background-color: #333645;
+  width: 100%;
+
+}
+
+.container-foot {
+  width: 970px;
+}
+
+}
+//--------------------------------------------------------------------------------------------------------
 
 @media (min-width:1260px) {
   .about-nm {
@@ -209,230 +308,54 @@
   #last-search-div {
     display: block;
   }
+.container-foot {
+  width: 1200px;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+
+}
+ .footer-1 {
+    width: 300px;
+  }
+  .footer-2 {
+    width: 300px;
+  }
+  .footer-3 {
+    width: 300px;
+  }
+  .footer-4 {
+    width: 300px;
+  }
+
+  .facebook {
+    width: 120px;
+  }
+  .twitter-outer {
+    width: 120px;
+    margin-left: 30px;
+  }
+
+  .linkedin-outer {
+    width: 120px;
+  }
+  .busseys {
+  height: 70px;
+  width: 188px;
+  }
+.crane {
+  height: 70px;
+  width: 287px;
+}
+.beat {
+  height: 70px;
+  width: 72px;
+}
+.diver {
+  height: 70px;
+  width: 322px;
 }
 
-// @media (min-width: 768px) {
-//   #tel-serv,
-//   #web-serv,
-//   #cyber-sec,
-//   #dev-train {
-//     width: 345px;
-//     height: 312px;
-//     margin: 15px 15px 15px 10px;
-//   }
-//   .container-block-cards {
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//   }
-// }
-
-// @media (min-width: 992px) {
-//   #tel-serv,
-//   #web-serv,
-//   #cyber-sec,
-//   #dev-train {
-//     width: 455px;
-//     height: 290px;
-//     margin: 15px 15px 15px 10px;
-//   }
-//   #bespoke-sw,
-//   #it-sup,
-//   #dig-mark {
-//     width: 294px;
-//     height: 356px;
-//     margin: 30px 15px 30px 15px;
-//   }
-//   .container-block-cards {
-//     align-items: center;
-//   }
-// }
-
-//-------------------------------------------ABOUT NETMATTERS------------------------------------------------
-
-// @media (min-width: 992px) {
-//   .container-nm {
-//   background-image: url(../../IMG/netmatters-logo-background.png);
-//   background-repeat: no-repeat;
-//   background-position: 100%;
-//   background-size: auto 100%;
-//   }
-// }
-
-
-
-//-------------------------------------------LATEST NEWS-----------------------------------------------------
-
-// @media (min-width: 1260px) {
-//   #prem-res-img:hover {
-//      transform: scale(1.25);
-//   }
-// }
-
-// @media (min-width: 1260px) {
-//   #birthday-img:hover {
-//     transform: scale(1.25);
-//   }
-// }
-
-// @media (min-width: 1260px) {
-//   #jordan-img:hover {
-//     transform: scale(1.25);
-//   }
-// }
-
-// @media (min-width: 768px) {
-//   .latest-prem {
-//     width: 375px;
-//     height: 600px;
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: nowrap;
-//   }
-//   .latest-adam {
-//     width: 375px;
-//     height: 600px;
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: nowrap;
-//   }
-//   .latest-jordy {
-//     display: none;
-//   }
-// }
-
-
-//-----------------------------------------------------------------------------------------------------------
-
-// @media (min-with: 768px) {
-//   .latest-cards {
-//     width: 375px;
-//     height: 600px;
-//     padding: 0px 15px;
-//   }
-//   .latest-cards-main {
-//     flex-direction: row;
-//   }
-//   .jordy {
-//     display: none;
-//   }
-// }
-
-// @media (max-width: 992px) {
-//   .main-nav-bar {
-//     display: none;
-//   }
-// }
-
-// @media (max-width: 768px) {
-//   .accreditations-container {
-//     display: none;
-//   }
-// }
-
-// @media (min-width: 768px) {
-//   .accreditations-container {
-//     width: 750px;
-//   }
-// }
-
-// @media (min-width: 992px) {
-//   .accreditations-container {
-//     width: 970px;
-//   }
-// }
-
-// @media (min-width: 1200px) {
-//   .accreditations-container {
-//     width: 1200px;
-//   }
-// }
-
-// @media (min-width: 992px) {
-//   .block-cards {
-//     max-width: 720px;
-//     // min-height: 356px;
-//   }
-// }
-
-// @media (min-width: 992px) {
-//   .support-btn {
-//     display: flex;
-//   }
-//   .contact-btn {
-//     display: flex;
-//   }
-//   .little-search-btn {
-//     display: flex
-//   }
-//   .mid-search-outer {
-//     display: none;
-//   }
-// }
-
-// @media (min-width: 768px) {
-//   .mid-search-bar {
-//     display: block;
-//   }
-// }
-
-// @media (min-width: 1260px) {
-//   #tel-serv,
-//   #web-serv,
-//   #cyber-sec,
-//   #dev-train {
-//     width: 270px;
-//     height: 312px;
-//     margin: 15px 15px 15px 10px;
-//   }
-//   #bespoke-sw,
-//   #it-sup,
-//   #dig-mark {
-//     width: 370px;
-//     height: 312px;
-//     margin: 30px 15px 30px 15px;
-//   }
-//   .container-block-cards {
-//     align-items: center;
-//   }
-//     .little-search-btn {
-//     display: none;
-//   }
-// }
-
-// @media (min-width: 1260px) {
-//   .last-search-bar {
-//     display: block;
-//   }
-// }
-
-//------------------------------contact us / about etc footer section--------------------------------------//
-
-// @media (min-width: 768px) {
-//   .container-foot {
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     justify-content: space-around;
-//     // align-content: space-between;
-//   }
-// }
-
-// @media (min-width: 992px) {
-//   .container-foot {
-
-//   }
-// }
-
-// @media (min-width: 1260px) {
-//   .container-foot {
-
-//   }
-// }
-
-//-----------------------------clients container----------------------------------------------------------//
-
-// @media (min-width: 768px) {
-//   .client-container {
-//     display: block;
-//   }
-// }
+.client-inner {
+  width: 1200px;
+}
+}

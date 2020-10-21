@@ -25,6 +25,15 @@
   padding: 10px 0px 0px 0px;
 }
 
+.main-banner-container {
+    display: flex;
+    flex-direction: column;
+    
+    
+ 
+
+  }
+
 /* banner text */
 .banner-main-text {
   text-align: center;
@@ -161,15 +170,7 @@
 }
 
 //----------------------------------------------black line for latest title NOT working correctly ATM
-.latest-line {
-  content: "";
-  // position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #333645;
-  height: 5px;
-}
+
 
 .latest-text-main {
   display: block;
@@ -177,15 +178,29 @@
   color: #333645;
   font-size: 1.25rem;
   font-weight: 600;
-  // text-decoration: none;
-  // position: relative;
+
+}
+
+  .latest-line {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333645;
+  height: 5px; 
+}
+
+.latest-news-title {
+  list-style-type: none;
+    position: relative;
+    width: 71px;
 }
 
 //------------------------------------------------------------------------------------------------------
 
-// .latest-news-title {
-//   text-decoration: none;
-// }
+
 
 .latest-cards-main {
   display: flex;
