@@ -1025,6 +1025,7 @@ h4 {
 #last-search-div {
   display: none;
   position: relative;
+  margin-top: 5px;
 }
 
 #search-icon {
@@ -1093,7 +1094,7 @@ h4 {
 }
 
 .header-container {
-  padding: 20px 15px 10px 15px;
+  padding: 20px 15px 0 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1107,7 +1108,7 @@ h4 {
   font-size: 18px;
   display: none;
   margin-top: 5px;
-  margin-left: 20px;
+  margin-left: 70px;
   text-align: center;
   vertical-align: middle;
   border: 1px solid transparent;
@@ -1792,6 +1793,9 @@ h4 {
   }
   .nav-inner {
     width: 193px;
+  }
+  .header-container {
+    width: 1200px;
   }
 }
 
