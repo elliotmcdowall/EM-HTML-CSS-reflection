@@ -52,9 +52,7 @@
   .jordy {
     display: none;
   }
-   .accreditations-container {
-    display: none;
-  }
+
   .accreditations-container {
     width: 750px;
   }
@@ -112,7 +110,7 @@
 
   .accreditations-main {
     display: flex;
-    width: 750px;
+    // width: 750px;
   }
   .header-container {
     width: 750px;
@@ -123,7 +121,7 @@
 
 }
 
-//--------------------------------------------------------------------------------------------------------
+//-------on:hover's---------------------------------------------------------------------------------------
 
 @media (any-hover: hover) {
 .on-hover-btm-bar:hover {
@@ -170,7 +168,7 @@
   #it-sup,
   #dig-mark {
     width: 294px;
-    height: 356px;
+    min-height: 356px;
     margin: 30px 15px 30px 15px;
   }
   .container-block-cards {
@@ -207,9 +205,6 @@
   .call-us {
     display: none;
   }
-  .accreditations-main {
-    width: 970px;
-  }
   .header-container {
     width: 970px;
   }
@@ -232,19 +227,41 @@
   height: 63px;
   width: 289px;
 }
-
 .client-inner {
   width: 970px;
 }
-
 .outer-container-foot {
   background-color: #333645;
   width: 100%;
-
 }
-
 .container-foot {
   width: 970px;
+}
+
+.microsoft {
+  height: 85px;
+  width: 140px;
+}
+
+.future-50 {
+  height: 111px;
+  width: 70px;
+}
+
+.iso {
+  height: 100px;
+  width: 85px;
+}
+
+.carbon {
+  height: 80px;
+  width: 200px;  
+}
+
+.accreditations-container {
+  width: 970px;
+  margin:  auto;
+  justify-content: center; 
 }
 
 }
@@ -263,9 +280,6 @@
     #jordan-img:hover {
     transform: scale(1.25);
   }
-  .accreditations-container {
-  width: 1200px;
-  }
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -280,9 +294,6 @@
     width: 370px;
     height: 312px;
     margin: 30px 15px 30px 15px;
-  }
-  .container-block-cards {
-    align-items: center;
   }
     .little-search-btn {
     display: none;
@@ -358,4 +369,53 @@
 .client-inner {
   width: 1200px;
 }
+
+.microsoft {
+  height: 70px;
+  width: 115px;
+}
+
+.future-50 {
+  height: 70px;
+  width: 44px;
+}
+
+.iso {
+  height: 70px;
+  width: 60px;
+}
+
+.carbon {
+  height: 70px;
+  width: 175px;  
+}
+
+.accreditations-container {
+  width: 1200px;
+}
+
+.nav-container {
+  width: 1200px;
+}
+.nav-inner {
+  width: 193px;
+  // margin-left: auto;
+  // margin-right: auto;
+}
+
+}
+
+
+@media (min-width: 1524px) {
+    .container-block-cards {
+     padding-right: 150px;
+     padding-left: 150px;
+  }
+}
+
+@media (min-width: 1794px) {
+    .container-block-cards {
+     padding-right: 270px;
+     padding-left: 270px;
+  }
 }

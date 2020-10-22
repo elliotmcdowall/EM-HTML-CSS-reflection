@@ -24,6 +24,18 @@ header {
   width: 100%;
 }
 
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 400;
+}
+
 /* main img banner holding the image and the text */
 .primary-container {
   margin-right: auto;
@@ -59,6 +71,16 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.bm-cyb-sec-h1 {
+  font-size: 48px;
+}
+
+.bm-small-text {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 35px;
 }
 
 /* banner text */
@@ -775,7 +797,10 @@ header {
 }
 
 .accreditations-container {
-  padding: 50px 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .accreditation-list {
@@ -786,9 +811,9 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .google {
@@ -796,34 +821,56 @@ header {
   height: 82px;
   width: 220px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
 }
 
 .microsoft {
   background-image: url(../../IMG/silver-microsoft-partner.jpg);
-  height: 100px;
-  width: 100%;
+  height: 54px;
+  width: 88px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
 }
 
 .future-50 {
   background-image: url(../../IMG/future-50-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 54px;
+  width: 34px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
+}
+
+.future-50:hover {
+  background-image: url(../../IMG/future-50-col.jpg);
 }
 
 .iso {
   background-image: url(../../IMG/iso-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 54px;
+  width: 46px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
+}
+
+.iso:hover {
+  background-image: url(../../IMG/iso-col.jpg);
 }
 
 .carbon {
   background-image: url(../../IMG/norfolk-carbon-charter-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 54px;
+  width: 134px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
+}
+
+.carbon:hover {
+  background-image: url(../../IMG/norfolk-carbon-charter-col.jpg);
 }
 
 .client-container {
@@ -845,12 +892,20 @@ header {
   background-size: contain;
 }
 
+.busseys:hover {
+  background-image: url(../../IMG/bussey-col.png);
+}
+
 .crane {
   background-image: url(../../IMG/crane-blk.jpg);
   height: 46px;
   width: 185px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.crane:hover {
+  background-image: url(../../IMG/crane-col.png);
 }
 
 .beat {
@@ -861,12 +916,20 @@ header {
   background-size: contain;
 }
 
+.beat:hover {
+  background-image: url(../../IMG/beat-col.png);
+}
+
 .diver {
   background-image: url(../../IMG/northern-blk.jpg);
   height: 46px;
   width: 208px;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.diver:hover {
+  background-image: url(../../IMG/northern-col.png);
 }
 
 .netmatters-logo {
@@ -883,6 +946,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -897,11 +961,17 @@ header {
   width: 56px;
 }
 
+.menu {
+  margin-top: 5px;
+}
+
 .mid-search-bar {
   display: none;
   width: 237px;
   height: 47px;
   position: relative;
+  margin-top: 5px;
+  margin-left: 50px;
 }
 
 .search-style-mid {
@@ -911,6 +981,8 @@ header {
 .search-bar-middle {
   width: 237px;
   height: 56px;
+  border-color: #cccccc;
+  padding: 5px 15px;
 }
 
 .header-top-half {
@@ -1031,9 +1103,10 @@ header {
   height: 56px;
   color: #ffffff;
   background-color: #4183d7;
-  padding: 5px 15px;
+  padding: 10px 15px;
   font-size: 18px;
   display: none;
+  margin-top: 5px;
   margin-left: 20px;
   text-align: center;
   vertical-align: middle;
@@ -1046,9 +1119,10 @@ header {
   height: 56px;
   color: #ffffff;
   background-color: #999aa2;
-  padding: 5px 15px;
+  padding: 10px 15px;
   font-size: 18px;
   display: none;
+  margin-top: 5px;
   margin-left: 20px;
   text-align: center;
   vertical-align: middle;
@@ -1058,12 +1132,14 @@ header {
 
 .little-search-btn {
   outline: none;
-  padding: 7px 20px 3px;
+  padding: 13px 20px 3px;
   border-radius: 3px;
+  border: none;
   width: 63px;
   height: 56px;
   color: #ffffff;
   background-color: #999aa2;
+  margin-top: 5px;
   margin-left: 20px;
   display: none;
 }
@@ -1366,9 +1442,6 @@ header {
     display: none;
   }
   .accreditations-container {
-    display: none;
-  }
-  .accreditations-container {
     width: 750px;
   }
   .mid-search-bar {
@@ -1435,7 +1508,6 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 750px;
   }
   .header-container {
     width: 750px;
@@ -1487,7 +1559,7 @@ header {
   #it-sup,
   #dig-mark {
     width: 294px;
-    height: 356px;
+    min-height: 356px;
     margin: 30px 15px 30px 15px;
   }
   .container-block-cards {
@@ -1533,9 +1605,6 @@ header {
   .call-us {
     display: none;
   }
-  .accreditations-main {
-    width: 970px;
-  }
   .header-container {
     width: 970px;
   }
@@ -1568,6 +1637,29 @@ header {
   .container-foot {
     width: 970px;
   }
+  .microsoft {
+    height: 85px;
+    width: 140px;
+  }
+  .future-50 {
+    height: 111px;
+    width: 70px;
+  }
+  .iso {
+    height: 100px;
+    width: 85px;
+  }
+  .carbon {
+    height: 80px;
+    width: 200px;
+  }
+  .accreditations-container {
+    width: 970px;
+    margin: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (min-width: 1260px) {
@@ -1586,9 +1678,6 @@ header {
     -webkit-transform: scale(1.25);
             transform: scale(1.25);
   }
-  .accreditations-container {
-    width: 1200px;
-  }
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -1603,11 +1692,6 @@ header {
     width: 370px;
     height: 312px;
     margin: 30px 15px 30px 15px;
-  }
-  .container-block-cards {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .little-search-btn {
     display: none;
@@ -1683,6 +1767,45 @@ header {
   }
   .client-inner {
     width: 1200px;
+  }
+  .microsoft {
+    height: 70px;
+    width: 115px;
+  }
+  .future-50 {
+    height: 70px;
+    width: 44px;
+  }
+  .iso {
+    height: 70px;
+    width: 60px;
+  }
+  .carbon {
+    height: 70px;
+    width: 175px;
+  }
+  .accreditations-container {
+    width: 1200px;
+  }
+  .nav-container {
+    width: 1200px;
+  }
+  .nav-inner {
+    width: 193px;
+  }
+}
+
+@media (min-width: 1524px) {
+  .container-block-cards {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media (min-width: 1794px) {
+  .container-block-cards {
+    padding-right: 270px;
+    padding-left: 270px;
   }
 }
 /*# sourceMappingURL=style.css.map */

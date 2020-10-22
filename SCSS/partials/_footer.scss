@@ -84,6 +84,8 @@
   background-color: #0077b5;
 }
 
+//----------------------------------accred container-------------------------------------------------
+
 .accreditations-main {
   display: none;
   padding: 50px 0;
@@ -92,13 +94,17 @@
 }
 
 .accreditations-container {
-  padding: 50px 0;
+  // padding: 50px 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .accreditation-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 // ongoing issue with this google image----------------------------------------------------------------
@@ -109,34 +115,53 @@
   height: 82px;
   width: 220px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
 }
 
 .microsoft {
   background-image: url(../../IMG/silver-microsoft-partner.jpg);
-  height: 100px;
-  width: 100%;
+  height: 54px;
+  width: 88px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
 }
 
 .future-50 {
   background-image: url(../../IMG/future-50-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 54px;
+  width: 34px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
+  &:hover {
+    background-image: url(../../IMG/future-50-col.jpg);
+  }
 }
 
 .iso {
   background-image: url(../../IMG/iso-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 54px;
+  width: 46px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
+  &:hover {
+    background-image: url(../../IMG/iso-col.jpg);
+  }
 }
 
 .carbon {
   background-image: url(../../IMG/norfolk-carbon-charter-blk.jpg);
-  height: auto;
-  width: 100%;
+  height: 54px;
+  width: 134px;
   background-repeat: no-repeat;
+  padding: 0 20px;
+  background-size: contain;
+  &:hover {
+    background-image: url(../../IMG/norfolk-carbon-charter-col.jpg);
+  }
 }
 
 //-------------------------------client container----------------------------------------------------------
@@ -158,6 +183,9 @@
   width: 122px;
   background-repeat: no-repeat;
   background-size: contain;
+  &:hover {
+    background-image: url(../../IMG/bussey-col.png);
+  }
 }
 
 .crane {
@@ -166,6 +194,9 @@
   width: 185px;
   background-repeat: no-repeat;
   background-size: contain;
+  &:hover {
+    background-image: url(../../IMG/crane-col.png);
+  }
 }
 
 .beat {
@@ -174,11 +205,19 @@
   width: 47px;
   background-repeat: no-repeat;
   background-size: contain;
+  &:hover {
+  background-image: url(../../IMG/beat-col.png);
 }
+}
+
+
 .diver {
   background-image: url(../../IMG/northern-blk.jpg);
   height: 46px;
   width: 208px;
   background-repeat: no-repeat;
   background-size: contain;
+    &:hover {
+  background-image: url(../../IMG/northern-col.png);
+}
 }
