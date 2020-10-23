@@ -24,19 +24,23 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+.container-nm-text-only {
+  width: 750px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
   .latest-prem {
-    width: 375px;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: 0px;
   }
   .latest-adam {
-    width: 375px;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    margin-left: 0px;
+    margin-right: auto;
+  
   }
   .latest-jordy {
     display: none;
@@ -46,9 +50,17 @@
     height: 600px;
     padding: 0px 15px;
   }
-  .latest-cards-main {
+
+  .latest-cards-only {
+    display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+
   }
+
+  // .latest-cards-main {
+  //   flex-direction: row;
+  // }
   .jordy {
     display: none;
   }
@@ -180,6 +192,14 @@
   background-position: 100%;
   background-size: auto 100%;
   }
+
+.container-nm-text-only {
+  width: 970px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
   .main-nav-bar {
   display: flex;
   }
@@ -211,6 +231,13 @@
   .nav-container {
     width: 970px;
   }
+
+.latest-cards {
+    width: 485px;
+    height: 663px;
+    padding: 0px 15px;
+  }
+
   .busseys {
   height: 63px;
   width: 169px;
@@ -295,7 +322,7 @@
     height: 312px;
     margin: 30px 15px 30px 15px;
   }
-    .little-search-btn {
+  .little-search-btn {
     display: none;
   }
   .last-search-bar {
@@ -319,6 +346,39 @@
   #last-search-div {
     display: block;
   }
+
+.main-banner-container {
+  width: 1200px;
+}
+
+.container-nm-text-only {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.latest-cards-only {
+  padding-bottom: 50px;
+}  
+
+.latest-cards {
+    width: 370px;
+    height: 214px;
+    padding: 50px 15px;
+    margin-bottom: 375px;
+  }
+
+ .latest-jordy {
+   display: block;
+   margin-right: auto;
+ } 
+
+ .latest-adam {
+   margin-left: 15px;
+   margin-right: 15px;
+ }
+
 .container-foot {
   width: 1200px;
   justify-content: flex-start;
@@ -423,3 +483,7 @@
      padding-left: 270px;
   }
 }
+
+//-------------------------------------------------------------------------------------------------IE compat
+
+@media (min-width:400px) and (-ms-high-contrast: none), (-ms-high-contrast: active) { }

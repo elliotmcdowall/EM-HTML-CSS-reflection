@@ -218,6 +218,7 @@
 .latest-cards {
   // border: 1px solid #cccccc;
   padding: 15px 15px 15px 15px;
+  font-size: 13px;
 }
 
 .container-nm {
@@ -228,10 +229,13 @@
   margin-left: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   flex-direction: column;
+}
+
+.container-nm-only {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .about-nm-title {
