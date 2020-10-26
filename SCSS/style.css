@@ -898,26 +898,90 @@ h4 {
 
 .busseys {
   background-image: url(../../IMG/bussey-blk.jpg);
-  height: 46px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   width: 122px;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .busseys:hover {
   background-image: url(../../IMG/bussey-col.png);
 }
 
+.busseys:hover .busseys-description {
+  display: block;
+}
+
+.busseys-description {
+  position: absolute;
+  top: -210px;
+  height: 175px;
+  width: 260px;
+  background: #333645;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
+.busseys-description::after {
+  top: 98.1%;
+  left: 52%;
+  margin-left: -20%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: solid 45px #333645;
+  border-left: solid 45px transparent;
+  border-right: solid 45px transparent;
+  position: absolute;
+}
+
 .crane {
   background-image: url(../../IMG/crane-blk.jpg);
-  height: 46px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   width: 185px;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .crane:hover {
   background-image: url(../../IMG/crane-col.png);
+}
+
+.crane:hover .crane-description {
+  display: block;
+}
+
+.crane-description {
+  position: absolute;
+  top: -210px;
+  height: 175px;
+  width: 260px;
+  background: #333645;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
+.crane-description::after {
+  top: 98.1%;
+  left: 52%;
+  margin-left: -20%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: solid 45px #333645;
+  border-left: solid 45px transparent;
+  border-right: solid 45px transparent;
+  position: absolute;
 }
 
 .beat {
@@ -926,10 +990,41 @@ h4 {
   width: 47px;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .beat:hover {
   background-image: url(../../IMG/beat-col.png);
+}
+
+.beat:hover .beat-description {
+  display: block;
+}
+
+.beat-description {
+  position: absolute;
+  top: -210px;
+  right: -100px;
+  height: 175px;
+  width: 260px;
+  background: #333645;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
+.beat-description::after {
+  top: 98.1%;
+  left: 52%;
+  margin-left: -20%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: solid 45px #333645;
+  border-left: solid 45px transparent;
+  border-right: solid 45px transparent;
+  position: absolute;
 }
 
 .diver {
@@ -938,10 +1033,64 @@ h4 {
   width: 208px;
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 }
 
 .diver:hover {
   background-image: url(../../IMG/northern-col.png);
+}
+
+.diver:hover .diver-description {
+  display: block;
+}
+
+.diver-description {
+  position: absolute;
+  top: -210px;
+  right: 25px;
+  height: 175px;
+  width: 260px;
+  background: #333645;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
+.diver-description::after {
+  top: 98.1%;
+  left: 52%;
+  margin-left: -20%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: solid 45px #333645;
+  border-left: solid 45px transparent;
+  border-right: solid 45px transparent;
+  position: absolute;
+}
+
+.tooltip-h3 {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+
+.tooltip-h3::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 28px;
+  height: 3px;
+  display: block;
+  background-color: #fff;
+}
+
+.tooltip-p {
+  font-size: 13px;
 }
 
 .netmatters-logo {
@@ -1325,7 +1474,6 @@ h4 {
 }
 
 .on-hover-btm-bar {
-  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
