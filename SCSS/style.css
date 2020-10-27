@@ -793,11 +793,11 @@ h4 {
   background-color: #3b5998;
 }
 
-.twitter:hover {
+.twitter-outer:hover {
   background-color: #00aced;
 }
 
-.linkedin:hover {
+.linkedin-outer:hover {
   background-color: #0077b5;
 }
 
@@ -917,7 +917,7 @@ h4 {
 
 .busseys-description {
   position: absolute;
-  top: -210px;
+  top: -220px;
   height: 175px;
   width: 260px;
   background: #333645;
@@ -961,7 +961,7 @@ h4 {
 
 .crane-description {
   position: absolute;
-  top: -210px;
+  top: -220px;
   height: 175px;
   width: 260px;
   background: #333645;
@@ -1003,7 +1003,7 @@ h4 {
 
 .beat-description {
   position: absolute;
-  top: -210px;
+  top: -220px;
   right: -100px;
   height: 175px;
   width: 260px;
@@ -1046,7 +1046,7 @@ h4 {
 
 .diver-description {
   position: absolute;
-  top: -210px;
+  top: -220px;
   right: 25px;
   height: 175px;
   width: 260px;
@@ -1342,6 +1342,7 @@ h4 {
           flex-direction: row;
   list-style: none;
   margin: 0;
+  position: relative;
   padding: 0;
 }
 
@@ -1372,6 +1373,39 @@ h4 {
   color: #ffffff;
 }
 
+.nav-square-web-des:hover:hover .on-hover-btm-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 99px;
+  right: auto;
+  left: 0px;
+  background: #79539a;
+}
+
+.nav-square-web-des:hover:hover .on-hover-btm-bar::before {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1000px;
+  background-color: #79539a;
+  position: absolute;
+  right: 1100px;
+  top: 0px;
+}
+
+.nav-square-web-des:hover:hover .on-hover-btm-bar::after {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1100px;
+  background-color: #79539a;
+  position: absolute;
+  left: 1100px;
+  top: 0px;
+}
+
 .nav-square-it-sup:hover {
   background-color: #4183d7;
   color: #ffffff;
@@ -1379,6 +1413,39 @@ h4 {
 
 .nav-square-it-sup:hover .it-sup-nav {
   color: #ffffff;
+}
+
+.nav-square-it-sup:hover:hover .on-hover-btm-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 99px;
+  right: auto;
+  left: 0px;
+  background: #286abd;
+}
+
+.nav-square-it-sup:hover:hover .on-hover-btm-bar::before {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1000px;
+  background-color: #286abd;
+  position: absolute;
+  right: 1100px;
+  top: 0px;
+}
+
+.nav-square-it-sup:hover:hover .on-hover-btm-bar::after {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1100px;
+  background-color: #286abd;
+  position: absolute;
+  left: 1100px;
+  top: 0px;
 }
 
 .nav-square-tel-ser:hover {
@@ -1390,6 +1457,39 @@ h4 {
   color: #ffffff;
 }
 
+.nav-square-tel-ser:hover:hover .on-hover-btm-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 99px;
+  right: auto;
+  left: 0px;
+  background: #bc2c28;
+}
+
+.nav-square-tel-ser:hover:hover .on-hover-btm-bar::before {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1000px;
+  background-color: #bc2c28;
+  position: absolute;
+  right: 1100px;
+  top: 0px;
+}
+
+.nav-square-tel-ser:hover:hover .on-hover-btm-bar::after {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1100px;
+  background-color: #bc2c28;
+  position: absolute;
+  left: 1100px;
+  top: 0px;
+}
+
 .nav-square-bes-sof:hover {
   background-color: #67809f;
   color: #ffffff;
@@ -1397,6 +1497,39 @@ h4 {
 
 .nav-square-bes-sof:hover .bes-sof-nav {
   color: #ffffff;
+}
+
+.nav-square-bes-sof:hover:hover .on-hover-btm-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 99px;
+  right: auto;
+  left: 0px;
+  background: #526781;
+}
+
+.nav-square-bes-sof:hover:hover .on-hover-btm-bar::before {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1000px;
+  background-color: #526781;
+  position: absolute;
+  right: 1100px;
+  top: 0px;
+}
+
+.nav-square-bes-sof:hover:hover .on-hover-btm-bar::after {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1100px;
+  background-color: #526781;
+  position: absolute;
+  left: 1100px;
+  top: 0px;
 }
 
 .nav-square-dig-mar:hover {
@@ -1408,6 +1541,39 @@ h4 {
   color: #ffffff;
 }
 
+.nav-square-dig-mar:hover:hover .on-hover-btm-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 99px;
+  right: auto;
+  left: 0px;
+  background: #25a25a;
+}
+
+.nav-square-dig-mar:hover:hover .on-hover-btm-bar::before {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1000px;
+  background-color: #25a25a;
+  position: absolute;
+  right: 1100px;
+  top: 0px;
+}
+
+.nav-square-dig-mar:hover:hover .on-hover-btm-bar::after {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1100px;
+  background-color: #25a25a;
+  position: absolute;
+  left: 1100px;
+  top: 0px;
+}
+
 .nav-square-cyb-sec:hover {
   background-color: #f62459;
   color: #ffffff;
@@ -1415,6 +1581,39 @@ h4 {
 
 .nav-square-cyb-sec:hover .cyb-sec-nav {
   color: #ffffff;
+}
+
+.nav-square-cyb-sec:hover:hover .on-hover-btm-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 99px;
+  right: auto;
+  left: 0px;
+  background: #de093f;
+}
+
+.nav-square-cyb-sec:hover:hover .on-hover-btm-bar::before {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1000px;
+  background-color: #de093f;
+  position: absolute;
+  right: 1100px;
+  top: 0px;
+}
+
+.nav-square-cyb-sec:hover:hover .on-hover-btm-bar::after {
+  content: "";
+  overflow-x: hidden;
+  height: 45px;
+  width: 1100px;
+  background-color: #de093f;
+  position: absolute;
+  left: 1100px;
+  top: 0px;
 }
 
 .nav-inner {
@@ -1473,14 +1672,66 @@ h4 {
   color: #f62459;
 }
 
+.on-hover-color-web-des {
+  display: none;
+  width: 100vw;
+  height: 45px;
+  background-color: #79539a;
+}
+
+.on-hover-color-it-sup {
+  display: none;
+  width: 4500px;
+  height: 45px;
+}
+
+.on-hover-color-tel-ser {
+  display: none;
+  width: 4500px;
+  height: 45px;
+}
+
+.on-hover-color-bes-sof {
+  display: none;
+  width: 4500px;
+  height: 45px;
+}
+
+.on-hover-color-dig-mar {
+  display: none;
+  width: 4500px;
+  height: 45px;
+}
+
+.on-hover-color-cyb-sec {
+  display: none;
+  width: 4500px;
+  height: 45px;
+}
+
 .on-hover-btm-bar {
+  display: none;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  content: "";
+  width: 1150px;
+  height: 45px;
+  list-style: none;
+  font-size: 13px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+.white-dash::after {
+  content: "-";
+  padding-left: 35px;
+  color: #ffffff;
 }
 
 .icon-background {
@@ -1840,6 +2091,10 @@ h4 {
   #jordan-img:hover {
     -webkit-transform: scale(1.25);
             transform: scale(1.25);
+  }
+  .on-hover-btm-bar {
+    font-size: 16px;
+    margin-left: auto;
   }
   #tel-serv,
   #web-serv,
