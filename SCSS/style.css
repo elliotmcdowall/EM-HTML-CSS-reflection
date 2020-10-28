@@ -1815,6 +1815,9 @@ h4 {
     margin-right: auto;
     margin-left: auto;
   }
+  .latest-tnews-title {
+    width: 750px;
+  }
   .latest-prem {
     margin-left: auto;
     margin-right: 0px;
