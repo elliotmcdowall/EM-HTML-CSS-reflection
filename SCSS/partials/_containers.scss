@@ -178,6 +178,11 @@
 //----------------black line for latest title NOT working correctly ATM----Now working 
 
 
+#latest-news-ul {
+  list-style: none;
+  padding: 0px;
+}
+
 .latest-text-main {
   display: block;
   padding: 40px 0;
