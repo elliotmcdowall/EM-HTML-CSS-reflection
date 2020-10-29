@@ -31,9 +31,10 @@
   margin-left: auto;
 }
 
-.latest-tnews-title {
+#latest-title-ul {
   width: 750px;
 }
+
 
 
   .latest-prem {
@@ -133,6 +134,23 @@
   .client-inner {
     width: 750px;
   }
+
+.busseys {
+  height: 45px;
+  width: 121px;
+  }
+.crane {
+  height: 45px;
+  width: 184px;
+}
+.beat {
+  height: 45px;
+  width: 46px;
+}
+.diver {
+  height: 45px;
+  width: 207px;
+}
 
 }
 
@@ -235,13 +253,18 @@
     width: 970px;
   }
 
+#latest-title-ul {
+
+  width: 970px;
+}
+
 .latest-cards {
     width: 485px;
     height: 663px;
     padding: 0px 15px;
   }
 
-  .busseys {
+.busseys {
   height: 63px;
   width: 169px;
   }
@@ -323,7 +346,7 @@
   #dev-train {
     width: 270px;
     height: 312px;
-    margin: 15px 15px 15px 10px;
+    margin: 15px 15px 15px 15px;
   }
   #bespoke-sw,
   #it-sup,
@@ -362,11 +385,14 @@
 }
 
 .container-nm-text-only {
-  width: 1200px;
+  width: 1250px;
   margin-right: auto;
   margin-left: auto;
 }
 
+#latest-title-ul {
+  width: 1200px;
+}
 
 .latest-cards-only {
   padding-bottom: 50px;

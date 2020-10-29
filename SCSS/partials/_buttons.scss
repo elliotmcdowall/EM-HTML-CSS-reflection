@@ -14,18 +14,30 @@
   color: #ffffff;
   background-color: #4183d7;
   border-color: #4183d7;
+  &:hover {
+    background-color: #2a6ec6;
+    border-color: #2665b5;
+  }
 }
 
 .happy-bday-btn {
   color: #ffffff;
   background-color: #4183d7;
   border-color: #4183d7;
+  &:hover {
+    background-color: #2a6ec6;
+    border-color: #2665b5;
+  }
 }
 
 .jordan-btn {
   color: #ffffff;
   background-color: #926fb1;
   border-color: #926fb1;
+  &:hover {
+    background-color: #7e57a0;
+    border-color: #735093;
+  }
 }
 
 .oc-btn {
