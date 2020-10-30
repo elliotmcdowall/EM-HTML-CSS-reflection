@@ -462,6 +462,7 @@ h4 {
   height: auto;
   max-width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 #prem-res-img {
@@ -477,6 +478,7 @@ h4 {
   height: auto;
   max-width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 #birthday-img {
@@ -492,6 +494,7 @@ h4 {
   height: auto;
   max-width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 #jordan-img {
@@ -761,6 +764,7 @@ h4 {
   line-height: 1.4rem;
   font-weight: 600;
   position: absolute;
+  z-index: 10000000000000000000000000000000000000000000000000000000000;
 }
 
 .insights-btn {
@@ -773,6 +777,7 @@ h4 {
   line-height: 1.4rem;
   font-weight: 600;
   position: absolute;
+  z-index: 10000000000000000000000000000000000000000000000000000000000;
 }
 
 .contact-us {
@@ -1909,6 +1914,19 @@ h4 {
   #search-icon {
     display: none;
   }
+  .bottom-half-prem-res {
+    height: 371px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   #tel-serv,
   #web-serv,
   #cyber-sec,
@@ -1935,6 +1953,21 @@ h4 {
   }
   #latest-title-ul {
     width: 750px;
+  }
+  .inner-latest-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 750px;
+    height: 700px;
+    margin: 50px auto auto auto;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .latest-jordy {
     display: none;
@@ -2059,6 +2092,19 @@ h4 {
 }
 
 @media (min-width: 992px) {
+  .bottom-half-prem-res {
+    height: 351px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   .mobile-break-invis {
     display: block;
   }
@@ -2076,6 +2122,9 @@ h4 {
     text-align: left;
     padding-left: 0px;
     padding-right: 15px;
+  }
+  .inner-latest-cards {
+    width: 970px;
   }
   .find-out-more-btn {
     margin: 0;
@@ -2209,8 +2258,35 @@ h4 {
 }
 
 @media (min-width: 1260px) {
+  .bottom-half-prem-res {
+    height: 389px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .bottom-half-bday {
+    height: 374px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
   .inner-latest-cards {
-    margin: auto;
+    height: 700px;
+    margin: 0 auto auto auto;
     width: 1200px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2227,7 +2303,6 @@ h4 {
     -webkit-transform: scale(1.15);
             transform: scale(1.15);
     opacity: 0.9;
-    overflow: hidden;
   }
   #birthday-img:hover {
     -webkit-transform: scale(1.15);

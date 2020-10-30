@@ -17,6 +17,13 @@
   #search-icon {
     display: none;
   }
+
+  .bottom-half-prem-res {
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
   
   #tel-serv,
   #web-serv,
@@ -51,6 +58,17 @@
   //   margin-right: auto;
   
   // }
+
+  .inner-latest-cards {
+  display: flex;
+  flex-direction: row;
+  width: 750px;
+  height: 700px;
+  margin: 50px auto auto auto;
+  justify-content: space-between;
+
+}
+
   .latest-jordy {
     display: none;
   }
@@ -171,6 +189,14 @@
 
 @media (min-width: 992px) {
 
+
+  .bottom-half-prem-res {
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   .mobile-break-invis {
     display: block;
   }
@@ -191,6 +217,11 @@
 
     
   }
+
+.inner-latest-cards {
+  width: 970px;
+}
+
   .find-out-more-btn {
     margin: 0;
   }
@@ -326,9 +357,24 @@
 //--------------------------------------------------------------------------------------------------------
 
 @media (min-width:1260px) {
+  
+  .bottom-half-prem-res {
+    height: 389px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+  }
+
+  .bottom-half-bday {
+    height: 374px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+  }
 
   .inner-latest-cards {
-    margin: auto;
+    height: 700px;
+    margin: 0 auto auto auto;
     width: 1200px;
     display: flex;
     flex-direction: row;
@@ -340,7 +386,7 @@
     #prem-res-img:hover {
      transform: scale(1.15);
       opacity: 0.9;
-     overflow: hidden;
+     
   }
     #birthday-img:hover {
     transform: scale(1.15);
