@@ -60,7 +60,9 @@
   color: #333645;
   width: 100%;
   max-width: 720px;
-  max-height: 290px;
+   &:hover {
+    cursor: pointer;
+  }
 }
 
 .block-h2 {
@@ -81,6 +83,7 @@
   margin: auto;
   width: 28px;
   height: 3px;
+
 }
 
 #bespoke-sw:hover {
@@ -93,6 +96,9 @@
   .dots {
     background-color: #ffffff;
     color: #67809f;
+  }
+  .black-line {
+    background-color: #ffffff;
   }
 }
 
@@ -107,10 +113,14 @@
     background-color: #ffffff;
     color: #4183d7;
   }
+    .black-line {
+    background-color: #ffffff;
+  }
 }
 
 #dig-mark:hover {
   background-color: #2ecc71;
+  color: #ffffff;
   .digi-mark-btn {
     background-color: #ffffff;
     color: #2ecc71;
@@ -119,10 +129,14 @@
     background-color: #ffffff;
     color: #2ecc71;
   }
+    .black-line {
+    background-color: #ffffff;
+  }
 }
 
 #tel-serv:hover {
   background-color: #d64541;
+  color: #ffffff;
   .telecoms-btn {
     background-color: #ffffff;
     color: #d64541;
@@ -131,10 +145,14 @@
     background-color: #ffffff;
     color: #d64541;
   }
+    .black-line {
+    background-color: #ffffff;
+  }
 }
 
 #web-serv:hover {
   background-color: #926fb1;
+  color: #ffffff;
   .web-des-btn {
     background-color: #ffffff;
     color: #926fb1;
@@ -143,10 +161,14 @@
     background-color: #ffffff;
     color: #926fb1;
   }
+    .black-line {
+    background-color: #ffffff;
+  }
 }
 
 #cyber-sec:hover {
   background-color: #f62459;
+  color: #ffffff;
   .cyber-sec-btn {
     background-color: #ffffff;
     color: #f62459;
@@ -155,10 +177,14 @@
     background-color: #ffffff;
     color: #f62459;
   }
+    .black-line {
+    background-color: #ffffff;
+  }
 }
 
 #dev-train:hover {
   background-color: #926fb1;
+  color: #ffffff;
   .dev-train-btn {
     background-color: #ffffff;
     color: #926fb1;
@@ -166,6 +192,9 @@
   .scs {
     background-color: #ffffff;
     color: #926fb1;
+  }
+      .black-line {
+    background-color: #ffffff;
   }
 }
 

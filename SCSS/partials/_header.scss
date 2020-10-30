@@ -23,6 +23,7 @@
   &:hover {
     background-color: #22242e;
     border-color: #191022;
+    cursor: pointer;
   }
 }
 
@@ -182,7 +183,7 @@
   height: 56px;
   color: #ffffff;
   background-color: #4183d7;
-  padding: 10px 15px;
+  padding: 15px 15px 15px 15px;
   font-size: 18px;
   display: none;
   margin-top: 5px;
@@ -202,7 +203,7 @@
   height: 56px;
   color: #ffffff;
   background-color: #999aa2;
-  padding: 10px 15px;
+  padding: 15px 15px 15px 15px;
   font-size: 18px;
   display: none;
   margin-top: 5px;
@@ -237,6 +238,7 @@
 
 .last-search-bar {
   display: none;
+  border: 1px solid #e5e5e5;
   position: relative;
   border-radius: 0 3px 3px 0;
   width: 303px;
@@ -245,7 +247,6 @@
   border-color: #cccccc;
   border-width: 1px;
   padding: 5px 15px 5px 15px;
-  
 }
 
 //NAV BAR-------------------------------------------------------------------------------------------------//

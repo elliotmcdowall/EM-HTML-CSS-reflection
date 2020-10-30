@@ -1,4 +1,11 @@
-@media (min-width: 768px) {
+
+// @media (min-width: 529px) {
+//   .block-it {
+//       padding-bottom: 0px;
+//   }
+// }
+
+
 
 
   .search-bar {
@@ -35,13 +42,13 @@
   width: 750px;
 }
 
-
-
   .latest-prem {
     margin-left: auto;
+
     margin-right: 0px;
   }
   .latest-adam {
+
     margin-left: 0px;
     margin-right: auto;
   
@@ -152,7 +159,7 @@
   width: 207px;
 }
 
-}
+
 
 //-------on:hover's---------------------------------------------------------------------------------------
 
@@ -325,13 +332,19 @@
     width: 40%;
       }
     #prem-res-img:hover {
-     transform: scale(1.25);
+     transform: scale(1.15);
+      opacity: 0.9;
+     overflow: hidden;
   }
     #birthday-img:hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
+    opacity: 0.9;
+    overflow: hidden;
   }
     #jordan-img:hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
+    opacity: 0.9;
+    overflow: hidden;
   }
 
   .on-hover-btm-bar {
@@ -502,6 +515,10 @@
 .header-container {
     width: 1200px;
   }
+
+.block-it {
+  padding-top: 20px;
+}
 
 }
 

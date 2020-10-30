@@ -25,6 +25,10 @@
   flex-direction: column;
 }
 
+.btm-news-list:hover {
+  text-decoration: underline;
+} 
+
 .footer-1 {
   order: 1;
   line-height: 1.48;
@@ -61,9 +65,11 @@
   text-align: center;
   box-sizing: border-box;
   width: 45%;
-
   padding-left: 15px;
   padding-right: 15px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .media-links {
